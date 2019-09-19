@@ -1,3 +1,0 @@
-D:/MySdk/un7zip/.cxx/cmake/debug/arm64-v8a/CMakeFiles/un7zip.dir
-D:/MySdk/un7zip/.cxx/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
-D:/MySdk/un7zip/.cxx/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir

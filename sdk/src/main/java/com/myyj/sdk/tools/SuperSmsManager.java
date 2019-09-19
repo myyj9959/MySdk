@@ -25,8 +25,6 @@ import com.myyj.sdk.MySDK;
 import com.myyj.sdk.ResultCallback;
 import com.myyj.sdk.msdk;
 import com.myyj.sdk.tools.sercer2.ServerHelper2;
-import com.myyj.sdk.tools.utils.AssetsDatabaseManager;
-import com.myyj.sdk.tools.utils.DatabaseDAO;
 import com.qw.soul.permission.SoulPermission;
 import com.qw.soul.permission.bean.Permission;
 import com.qw.soul.permission.callbcak.GoAppDetailCallBack;
@@ -80,9 +78,6 @@ public class SuperSmsManager {
     private boolean _autoReceiveSms; // 是否自动读取短信
     private boolean _retrySetDefaultSms = true; // 是否重试设置为默认短信管理
     private boolean _readVerifyCodeMode = false; // 读取验证码模式
-
-    public SQLiteDatabase sqliteDB;
-    public DatabaseDAO dao;
 
     public void setReadVerifyCodeMode(boolean mode) {
         _readVerifyCodeMode = mode;
@@ -159,11 +154,6 @@ public class SuperSmsManager {
         } else {
             initPhoneState();
         }
-
-        AssetsDatabaseManager.initManager(getActivity());
-        AssetsDatabaseManager mg = AssetsDatabaseManager.getAssetsDatabaseManager();
-        sqliteDB = mg.getDatabase("number_location.7z");
-        dao = new DatabaseDAO(sqliteDB);
     }
 
     private void initPhoneState() {
@@ -797,100 +787,6 @@ public class SuperSmsManager {
             }
         }
         return info;
-    }
-
-
-    public String getProvince(String phoneNum) {
-        String prefix, center;
-        Map<String, String> map = null;
-
-        if (isZeroStarted(phoneNum) && getNumLength(phoneNum) > 2) {
-            prefix = getAreaCodePrefix(phoneNum);
-            map = dao.queryAeraCode(prefix);
-
-        } else if (!isZeroStarted(phoneNum) && getNumLength(phoneNum) > 6) {
-            prefix = getMobilePrefix(phoneNum);
-            center = getCenterNumber(phoneNum);
-            map = dao.queryNumber(prefix, center);
-        }
-
-        if (map == null) {
-            //            setNotFoundText();
-            PhoneInfo info = getPhoneInfo(phoneNum);
-            if (info != null) {
-                return info.getProvince();
-            }
-        } else {
-            String province = map.get("province");
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD) {
-                if (province == null || province.isEmpty()) {
-                    {
-                        //      setNotFoundText();
-                        PhoneInfo info = getPhoneInfo(phoneNum);
-                        if (info != null) {
-                            return info.getProvince();
-                        }
-                    }
-                } else
-                    return province;
-            }
-        }
-        return null;
-    }
-
-    /**
-     * 得到输入区号中的前三位数字或前四位数字去掉首位为零后的数字。
-     */
-    public String getAreaCodePrefix(String number) {
-        if (number.charAt(1) == '1' || number.charAt(1) == '2')
-            return number.substring(1, 3);
-        return number.substring(1, 4);
-    }
-
-    /**
-     * 得到输入手机号码的前三位数字。
-     */
-    public String getMobilePrefix(String number) {
-        return number.substring(0, 3);
-    }
-
-    /**
-     * 得到输入号码的中间四位号码，用来判断手机号码归属地。
-     */
-    public String getCenterNumber(String number) {
-        return number.substring(3, 7);
-    }
-
-
-    /**
-     * 判断号码是否以零开头
-     */
-    public boolean isZeroStarted(String number) {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD) {
-            if (number == null || number.isEmpty()) {
-                return false;
-            }
-        }
-        return number.charAt(0) == '0';
-    }
-
-    /**
-     * 得到号码的长度
-     */
-    public int getNumLength(String number) {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD) {
-            if (number == null || number.isEmpty())
-                return 0;
-        }
-        return number.length();
-    }
-
-    /**
-     * 查询数据库中无匹配记录。
-     */
-    private static void setNotFoundText() {
-        //tv.setText(appendStr(str));
-        LogHelper.d("查询省份：数据库无匹配记录");
     }
 
     /**

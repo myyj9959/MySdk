@@ -1,3 +1,0 @@
-F:/sdk/loophost/MySdk/un7zip/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/un7zip.dir
-F:/sdk/loophost/MySdk/un7zip/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/edit_cache.dir
-F:/sdk/loophost/MySdk/un7zip/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/rebuild_cache.dir
