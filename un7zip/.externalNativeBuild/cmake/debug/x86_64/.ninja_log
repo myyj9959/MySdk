@@ -1,0 +1,25 @@
+# ninja log v5
+2	103	0	CMakeFiles/un7zip.dir/src/7zBuf.c.o	ffe1b9cdee54f725
+14	107	0	CMakeFiles/un7zip.dir/src/7zCrcOpt.c.o	99f5f0a12165cce0
+8	112	0	CMakeFiles/un7zip.dir/src/7zBuf2.c.o	e35e080a2a32e7b1
+4	149	0	CMakeFiles/un7zip.dir/src/7zAssetFile.c.o	9180b445f7e521fb
+7	153	0	CMakeFiles/un7zip.dir/src/7zAlloc.c.o	4cc5bd1feb13b792
+17	155	0	CMakeFiles/un7zip.dir/src/Bra86.c.o	46c8c5be59ea5f72
+19	156	0	CMakeFiles/un7zip.dir/src/Bra.c.o	1af187abb06d64ea
+6	162	0	CMakeFiles/un7zip.dir/7zExtracter.c.o	f0c6a7e83a8723a3
+32	162	0	CMakeFiles/un7zip.dir/src/Bcj2.c.o	5b4a16c475750928
+15	163	0	CMakeFiles/un7zip.dir/src/7zFile.c.o	e30d5043bd15612b
+0	163	0	CMakeFiles/un7zip.dir/7zFunctions.c.o	218653de21b8abc0
+12	164	0	CMakeFiles/un7zip.dir/src/Ppmd7.c.o	4f55c35a0355db2f
+29	165	0	CMakeFiles/un7zip.dir/src/7zStream.c.o	aa42b93f03268fd5
+21	165	0	CMakeFiles/un7zip.dir/src/7zDec.c.o	3a4596274a6860b
+10	169	0	CMakeFiles/un7zip.dir/src/7zArcIn.c.o	708c17c4147dd2c1
+34	170	0	CMakeFiles/un7zip.dir/src/7zCrc.c.o	d227417d62b4c7b4
+23	171	0	CMakeFiles/un7zip.dir/src/BraIA64.c.o	3e5f2c54d30a2671
+25	172	0	CMakeFiles/un7zip.dir/src/Delta.c.o	ae3df28a58718ae3
+107	179	0	CMakeFiles/un7zip.dir/src/CpuArch.c.o	e0f41c562af35e02
+103	189	0	CMakeFiles/un7zip.dir/src/Lzma2Dec.c.o	f0841dcdd88b8900
+153	210	0	CMakeFiles/un7zip.dir/un7zip.c.o	5337d7f63c7bf63d
+149	210	0	CMakeFiles/un7zip.dir/src/Ppmd7Dec.c.o	248c5b82a4c907a0
+113	213	0	CMakeFiles/un7zip.dir/src/LzmaDec.c.o	cb757a53b659eee9
+213	257	0	F:/sdk/loophost/MySdk/un7zip/build/intermediates/cmake/debug/obj/x86_64/libun7zip.so	3c39b739674c5601

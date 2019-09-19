@@ -1,0 +1,12 @@
+# pack-refs with: peeled fully-peeled sorted 
+db157aecea7c0b11ba9fffcbe965177b0542eda9 refs/remotes/origin/loopcost
+d0a716db7d508f2a8c0466555a83cf4938f84316 refs/remotes/origin/master
+552917c4c53054077f08424fdc3d79714a9f59fa refs/remotes/origin/smsbug
+664647b4807e2ae47d323845f8de6b4dc8b753ae refs/tags/0.6
+3ecece5323ad22f817fab31aea8520ffe4391ac5 refs/tags/0.6l
+92391a246f2e4aef1e46c0cd58ed8dbab4594905 refs/tags/0.7
+3ecece5323ad22f817fab31aea8520ffe4391ac5 refs/tags/0.7l
+3ba27909f0f622df265c00acbcc6a3170c948a6a refs/tags/0.7x
+db157aecea7c0b11ba9fffcbe965177b0542eda9 refs/tags/0.81x
+d0a716db7d508f2a8c0466555a83cf4938f84316 refs/tags/0.8x
+664647b4807e2ae47d323845f8de6b4dc8b753ae refs/tags/Test

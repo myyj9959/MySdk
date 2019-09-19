@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/idNumberText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:hint="请输入身份证号码"
+        android:minWidth="130dp"
+        />
+
+  <!--  <Button
+        android:id="@+id/bindButtonSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bindIdNumberText"
+        android:layout_marginTop="20dp"
+        android:text="提交"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="normal"
+        />-->
+</RelativeLayout>

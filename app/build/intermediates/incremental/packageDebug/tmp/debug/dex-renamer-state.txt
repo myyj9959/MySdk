@@ -1,0 +1,4 @@
+#Wed Sep 18 16:56:06 CST 2019
+base.0=F\:\\sdk\\loophost\\MySdk\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex

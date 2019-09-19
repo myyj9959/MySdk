@@ -1,0 +1,39 @@
+[1/24] Building C object CMakeFiles/un7zip.dir/src/7zCrcOpt.c.o
+[2/24] Building C object CMakeFiles/un7zip.dir/src/7zBuf2.c.o
+[3/24] Building C object CMakeFiles/un7zip.dir/src/7zFile.c.o
+[4/24] Building C object CMakeFiles/un7zip.dir/src/7zDec.c.o
+[5/24] Building C object CMakeFiles/un7zip.dir/src/7zAlloc.c.o
+[6/24] Building C object CMakeFiles/un7zip.dir/7zFunctions.c.o
+[7/24] Building C object CMakeFiles/un7zip.dir/src/7zBuf.c.o
+[8/24] Building C object CMakeFiles/un7zip.dir/src/7zArcIn.c.o
+[9/24] Building C object CMakeFiles/un7zip.dir/src/7zCrc.c.o
+[10/24] Building C object CMakeFiles/un7zip.dir/src/7zAssetFile.c.o
+[11/24] Building C object CMakeFiles/un7zip.dir/7zExtracter.c.o
+[12/24] Building C object CMakeFiles/un7zip.dir/src/Bcj2.c.o
+[13/24] Building C object CMakeFiles/un7zip.dir/un7zip.c.o
+[14/24] Building C object CMakeFiles/un7zip.dir/src/LzmaDec.c.o
+[15/24] Building C object CMakeFiles/un7zip.dir/src/BraIA64.c.o
+[16/24] Building C object CMakeFiles/un7zip.dir/src/Ppmd7.c.o
+[17/24] Building C object CMakeFiles/un7zip.dir/src/Bra.c.o
+[18/24] Building C object CMakeFiles/un7zip.dir/src/Ppmd7Dec.c.o
+[19/24] Building C object CMakeFiles/un7zip.dir/src/CpuArch.c.o
+[20/24] Building C object CMakeFiles/un7zip.dir/src/7zStream.c.o
+[21/24] Building C object CMakeFiles/un7zip.dir/src/Lzma2Dec.c.o
+[22/24] Building C object CMakeFiles/un7zip.dir/src/Bra86.c.o
+[23/24] Building C object CMakeFiles/un7zip.dir/src/Delta.c.o
+FAILED: D:\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=armv7-none-linux-androideabi19 --gcc-toolchain=D:/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dun7zip_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -Oz -DNDEBUG  -fPIC -MD -MT CMakeFiles/un7zip.dir/7zFunctions.c.o -MF CMakeFiles\un7zip.dir\7zFunctions.c.o.d -o CMakeFiles/un7zip.dir/7zFunctions.c.o   -c D:\MySdk\un7zip\src\main\cpp\7zFunctions.c
+D:\MySdk\un7zip\src\main\cpp\7zFunctions.c:30:9: error: use of undeclared identifier 'NATIVE_LOG'
+    if (DEBUG_LOG) {
+        ^
+D:\MySdk\un7zip\src\main\cpp\7zFunctions.c:25:19: note: expanded from macro 'DEBUG_LOG'
+#define DEBUG_LOG NATIVE_LOG
+                  ^
+1 error generated.
+D:\MySdk\un7zip\src\main\cpp\src\7zAssetFile.c:83:14: warning: incompatible pointer types assigning to 'SRes (*)(const ISeekInStream *, void *, size_t *)' (aka 'int (*)(const struct ISeekInStream *, void *, unsigned int *)') from 'SRes (void *, void *, size_t *)' (aka 'int (void *, void *, unsigned int *)') [-Wincompatible-pointer-types]
+  p->vt.Read = AssetFileInStream_Read;
+             ^ ~~~~~~~~~~~~~~~~~~~~~~
+D:\MySdk\un7zip\src\main\cpp\src\7zAssetFile.c:84:14: warning: incompatible pointer types assigning to 'SRes (*)(const ISeekInStream *, Int64 *, ESzSeek)' (aka 'int (*)(const struct ISeekInStream *, long long *, ESzSeek)') from 'SRes (void *, Int64 *, ESzSeek)' (aka 'int (void *, long long *, ESzSeek)') [-Wincompatible-pointer-types]
+  p->vt.Seek = AssetFileInStream_Seek;
+             ^ ~~~~~~~~~~~~~~~~~~~~~~
+2 warnings generated.
+ninja: build stopped: subcommand failed.

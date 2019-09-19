@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loginTapHost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!-- 定义第一个标签页的内容 -->
+            <RelativeLayout
+                android:id="@+id/loginTab01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/loginPhoneNumberText1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="40dp"
+                    android:ems="11"
+                    android:hint="请输入手机号"
+                    android:minWidth="130dp" />
+
+                <EditText
+                    android:id="@+id/loginPassWordText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_below="@+id/loginPhoneNumberText1"
+                    android:layout_marginTop="20dp"
+                    android:ems="10"
+                    android:hint="请输入密码"
+                    android:inputType="text"
+                    android:minWidth="130dp" />
+
+                <Button
+                    android:id="@+id/loginButtonLogin1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/loginPassWordText"
+                    android:layout_marginTop="20dp"
+                    android:text="登录"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:textStyle="normal" />
+
+                <Button
+                    android:id="@+id/loginButtonReg1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/loginPassWordText"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@+id/loginButtonLogin1"
+                    android:text="注册"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/loginForgetPassWord1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/loginPassWordText"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_toRightOf="@+id/loginButtonReg1"
+                    android:text="忘记密码..."
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:textStyle="normal" />
+
+            </RelativeLayout>
+            <!-- 定义第二个标签页的内容 -->
+            <RelativeLayout
+                android:id="@+id/loginTab02"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/loginPhoneNumberText2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="40dp"
+                    android:ems="11"
+                    android:hint="请输入手机号"
+                    android:minWidth="130dp" />
+
+                <EditText
+                    android:id="@+id/loginVerificationCodeText"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_below="@+id/loginPhoneNumberText2"
+                    android:layout_marginTop="20dp"
+                    android:ems="10"
+                    android:hint="请输入验证码"
+                    android:minWidth="130dp" />
+
+
+                <Button
+                    android:id="@+id/loginButtonGetVerificationCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/loginPhoneNumberText2"
+                    android:layout_alignBottom="@+id/loginVerificationCodeText"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginLeft="17dp"
+                    android:layout_toEndOf="@+id/loginVerificationCodeText"
+                    android:layout_toRightOf="@+id/loginVerificationCodeText"
+                    android:text="获取验证码"
+                    android:textSize="14dp"
+                    android:textStyle="normal" />
+
+                <Button
+                    android:id="@+id/loginButtonLogin2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/loginVerificationCodeText"
+                    android:layout_marginTop="20dp"
+                    android:text="登录"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:textStyle="normal" />
+
+                <Button
+                    android:id="@+id/loginButtonReg2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/loginVerificationCodeText"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@+id/loginButtonLogin2"
+                    android:text="注册"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/loginForgetPassWord2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/loginVerificationCodeText"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_toRightOf="@+id/loginButtonReg2"
+                    android:text="忘记密码..."
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:textStyle="normal" />
+            </RelativeLayout>
+
+        </FrameLayout>
+    </LinearLayout>
+</TabHost>

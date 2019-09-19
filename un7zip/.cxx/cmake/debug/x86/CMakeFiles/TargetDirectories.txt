@@ -1,0 +1,3 @@
+D:/MySdk/un7zip/.cxx/cmake/debug/x86/CMakeFiles/un7zip.dir
+D:/MySdk/un7zip/.cxx/cmake/debug/x86/CMakeFiles/edit_cache.dir
+D:/MySdk/un7zip/.cxx/cmake/debug/x86/CMakeFiles/rebuild_cache.dir

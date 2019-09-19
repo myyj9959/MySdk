@@ -1,0 +1,16 @@
+0000000000000000000000000000000000000000 db157aecea7c0b11ba9fffcbe965177b0542eda9 wk <wk@qq.com> 1567145508 +0800	branch: Created from origin/loopcost
+db157aecea7c0b11ba9fffcbe965177b0542eda9 061293dff95b2bccdab77192f8eac928b0eb0fa9 wk <wk@qq.com> 1567158065 +0800	commit: 测试账号设置随机积分
+061293dff95b2bccdab77192f8eac928b0eb0fa9 63086f91d383c2b5ccb3062e2f50717a6254c047 wk <wk@qq.com> 1567163418 +0800	commit: 测试账号设置随机积分
+63086f91d383c2b5ccb3062e2f50717a6254c047 758cecf2f1709f8b3396d619e8f403de48e39a09 wk <wk@qq.com> 1567237330 +0800	commit: 测试账号设置随机积分
+758cecf2f1709f8b3396d619e8f403de48e39a09 865de63c23eac83e3308e62ebd33feafd966e3dd wk <wk@qq.com> 1567248106 +0800	merge origin/loopcost: Fast-forward
+865de63c23eac83e3308e62ebd33feafd966e3dd 5a2763e377db3102e95a6c5991340f30c2a9c491 wk <wk@qq.com> 1567411330 +0800	merge origin/loopcost: Fast-forward
+5a2763e377db3102e95a6c5991340f30c2a9c491 57acc3b4c24c4df2a6aaffb3024b5d71d3a326cb wk <wk@qq.com> 1567411429 +0800	commit: 适配三星读取短信
+57acc3b4c24c4df2a6aaffb3024b5d71d3a326cb 1c6d5979c2dde68c0398ea955cacdf283ad56c90 wk <wk@qq.com> 1567418430 +0800	commit: 测试账号生产随机积分不写入数据库
+1c6d5979c2dde68c0398ea955cacdf283ad56c90 7c90f5600956d0e21b01edb3e89697cf9ed999b8 wk <wk@qq.com> 1567419740 +0800	merge origin/loopcost: Fast-forward
+7c90f5600956d0e21b01edb3e89697cf9ed999b8 fd9950ad7720684127cdd6dae7f33044cef0f230 wk <wk@qq.com> 1567421570 +0800	merge origin/loopcost: Fast-forward
+fd9950ad7720684127cdd6dae7f33044cef0f230 5c0c04d97a8a0625b0ea636bc6ebdc7c12ebb170 wk <wk@qq.com> 1567423424 +0800	merge origin/loopcost: Fast-forward
+5c0c04d97a8a0625b0ea636bc6ebdc7c12ebb170 b88ae8237c6270a7d4858495dd6caa29d999a208 wk <wk@qq.com> 1567426760 +0800	commit: 测试账号设置随机积分
+b88ae8237c6270a7d4858495dd6caa29d999a208 8bd5ce17485a353ba9d8a5ba484f1f0835776ff2 wk <wk@qq.com> 1567429518 +0800	commit: 测试账号设置随机积分
+8bd5ce17485a353ba9d8a5ba484f1f0835776ff2 19e8e88c268bb5056e46a65e884fcf7d78d76484 wk <wk@qq.com> 1567739399 +0800	commit: Merge branch 'loopcost' of F:\sdk\loophost\MySdk with conflicts.
+19e8e88c268bb5056e46a65e884fcf7d78d76484 38d11072773cc658df7bd822eadc8aa6bba14d51 wk <wk@qq.com> 1567739576 +0800	commit (merge): Merge remote-tracking branch 'origin/loopcost' into loopcost
+38d11072773cc658df7bd822eadc8aa6bba14d51 4060ff73134d5c732e9cd6eb57c8c48957630ab4 wk <wk@qq.com> 1567742776 +0800	merge origin/loopcost: Merge made by the 'recursive' strategy.
