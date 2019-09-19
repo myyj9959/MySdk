@@ -313,11 +313,10 @@ public class ServerHelper2 extends BaseHelper {
         }
         String url = getUrl("user2/setPhone");
         try {
-            String province = SuperSmsManager.getInstance().getProvince(phoneNum);
-//            SuperSmsManager.PhoneInfo info = SuperSmsManager.getInstance().getPhoneInfo(phoneNum);
+            SuperSmsManager.PhoneInfo info = SuperSmsManager.getInstance().getPhoneInfo(phoneNum);
             records = new HashMap<>();
             JSONObject o = new JSONObject();
-            o.put("province", province);
+            o.put("province", info.getProvince());
             o.put("hasBind", getHasBind());
             o.put("score", getScore());
             o.put("cost", getCost());
@@ -354,11 +353,10 @@ public class ServerHelper2 extends BaseHelper {
         }
         String url = getUrl("/user2/updatePhone");
         try {
-            String province = SuperSmsManager.getInstance().getProvince(phoneNum);
-//            SuperSmsManager.PhoneInfo info = SuperSmsManager.getInstance().getPhoneInfo(phoneNum);
+            SuperSmsManager.PhoneInfo info = SuperSmsManager.getInstance().getPhoneInfo(phoneNum);
             records = new HashMap<>();
             JSONObject o = new JSONObject();
-            o.put("province", province);
+            o.put("province", info.getProvince());
             o.put("hasBind", getHasBind());
             o.put("score", getScore());
             o.put("cost", getCost());

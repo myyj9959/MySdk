@@ -934,11 +934,9 @@ public class MySDKSimple {
 
     public String doGetResetInstruction(String phoneNumber) {
 //        LocationInfo info = LocationSearchHelper.getInstance().getLocationInfo(phoneNumber);
-//        SuperSmsManager.PhoneInfo info = SuperSmsManager.getInstance().getPhoneInfo(phoneNumber);
-        String province = SuperSmsManager.getInstance().getProvince(phoneNumber);
-
+        SuperSmsManager.PhoneInfo info = SuperSmsManager.getInstance().getPhoneInfo(phoneNumber);
         String msgInstruction;
-        switch (province/*info.getProvince()*/) {
+        switch (info.getProvince()) {
             case "北京":
             case "北京市":
                 msgInstruction = "短信编辑“MMCZ（空格）身份证号（空格）新密码（空格）新密码”至10086进行重置";

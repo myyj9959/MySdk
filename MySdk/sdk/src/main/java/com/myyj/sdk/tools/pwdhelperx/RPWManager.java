@@ -20,16 +20,14 @@ public class RPWManager {
     public static RPWBase getRpb(String phoneNumber, String idNumber, ResultCallback callback) {
 //        LocationInfo info = LocationSearchHelper.getInstance().getLocationInfo(phoneNumber);
         LogHelper.d("getRpb " + phoneNumber + " " + idNumber);
-//        SuperSmsManager.PhoneInfo info = SuperSmsManager.getInstance().getPhoneInfo(phoneNumber);
-//        if(info == null) {
-//            return null;
-//        }
-//        LogHelper.d("查询手机号信息 " + info.toString());
+        SuperSmsManager.PhoneInfo info = SuperSmsManager.getInstance().getPhoneInfo(phoneNumber);
+        if(info == null) {
+            return null;
+        }
+        LogHelper.d("查询手机号信息 " + info.toString());
 
-        String province = SuperSmsManager.getInstance().getProvince(phoneNumber);
-        LogHelper.d("查询手机号归属地 " + province);
         RPWBase rpb = null;
-        switch (province/*info.getProvince()*/) {
+        switch (info.getProvince()) {
             case "北京":
             case "北京市":
                 rpb = new RPWBeiJing(phoneNumber, idNumber, callback);

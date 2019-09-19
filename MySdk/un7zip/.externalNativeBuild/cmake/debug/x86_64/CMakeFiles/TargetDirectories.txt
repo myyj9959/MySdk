@@ -1,3 +1,0 @@
-F:/sdk/loophost/MySdk/un7zip/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/un7zip.dir
-F:/sdk/loophost/MySdk/un7zip/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/edit_cache.dir
-F:/sdk/loophost/MySdk/un7zip/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/rebuild_cache.dir

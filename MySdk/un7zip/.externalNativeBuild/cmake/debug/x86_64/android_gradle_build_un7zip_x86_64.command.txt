@@ -1,8 +1,0 @@
-Executable : C:\Sdk\cmake\3.6.4111459\bin\cmake.exe
-arguments : 
---build
-F:\sdk\loophost\MySdk\un7zip\.externalNativeBuild\cmake\debug\x86_64
---target
-un7zip
-jvmArgs : 
-

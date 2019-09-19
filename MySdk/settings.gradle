@@ -1,1 +1,1 @@
-include ':app',':sdk',':un7zip'
+include ':app',':sdk'
