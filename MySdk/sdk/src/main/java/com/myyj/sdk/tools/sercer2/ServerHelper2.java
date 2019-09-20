@@ -3,6 +3,7 @@ package com.myyj.sdk.tools.sercer2;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.text.TextUtils;
+import android.util.Log;
 
 import com.myyj.sdk.MySDK;
 import com.myyj.sdk.ResultCallback;
@@ -1132,7 +1133,7 @@ public class ServerHelper2 extends BaseHelper {
         boolean ret = false;
         String udid = msdk.getUDID();
         String tmp = getConfigValue("test_" + udid, "");
-        if (tmp != null) {
+        if (tmp != null && !tmp.equals("")) {
             ret = true;
         }
         return ret;
