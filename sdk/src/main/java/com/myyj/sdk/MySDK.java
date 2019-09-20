@@ -1,6 +1,7 @@
 package com.myyj.sdk;
 
 import android.app.Activity;
+import android.util.Log;
 
 import com.myyj.sdk.tools.DataHelper;
 import com.myyj.sdk.tools.LogHelper;
@@ -103,6 +104,9 @@ public class MySDK {
             if (StringHelper.isEmpty(info)) {
                 info = "默认";
             }
+            if (value!=0){
+                ServerHelper2.getInstance().setQrcode(String.valueOf(value));
+            }
             ServerHelper2.getInstance().updateEvent(eventId, info, value);
             _recordCallback.callback(eventId, info);
         }
@@ -198,17 +202,18 @@ public class MySDK {
 
     //    ----------------------------------------------------------------
     private String network;
-    private String testDevice;
+    private boolean testDevice;
     private String version; // app版本号
     private String pkgTime; // 打包时间
     private String defaultServicePassword = "582934";
 
 
-    public String getTestDevice() {
+    public boolean getTestDevice() {
+        Log.d("getTestDevice:",String.valueOf(testDevice));
         return testDevice;
     }
 
-    public void setTestDevice(String testDevice) {
+    public void setTestDevice(boolean testDevice) {
         this.testDevice = testDevice;
     }
 

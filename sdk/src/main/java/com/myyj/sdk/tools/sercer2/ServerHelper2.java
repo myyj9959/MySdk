@@ -172,13 +172,12 @@ public class ServerHelper2 extends BaseHelper {
                             setTestDevice(data.optBoolean("testDevice"));
                             setUdid(data.optString("udid"));
                             setUid(data.optInt("uid"));
-
                             Iterator iterator = data.keys();
                             LogHelper.d("setPhoneLogin:" + "uid:" + uid);
-
                             if (getConfigTestDevice()) {
                                 setTestDevice(true);
                                 setIsTest(true);
+                                MySDK.getInstance().setTestDevice(true);
                             }
 
                             boolean notEquals = false;
@@ -204,7 +203,7 @@ public class ServerHelper2 extends BaseHelper {
 
 
                             String id = sp.getString("id", "");
-                            if (TextUtils.isEmpty(id) || id.equals("0")|| id.equals("null")) {
+                            if (TextUtils.isEmpty(id) || id.equals("0") || id.equals("null")) {
                                 setProduct();
                             } else {
                                 LogHelper.d("上传id:" + id);
@@ -600,9 +599,15 @@ public class ServerHelper2 extends BaseHelper {
     /**
      * 更新程序
      */
-    public void updateProduct(String id) {
+    public void updateProduct() {
+        if (sp != null) {
+            id = sp.getString("id", "");
+            LogHelper.d("updateProduct:id:" + id);
+        }
+
         if (getUid() == 0) {
             LogHelper.w("ServerHelper.updateInfo error with " + getUid());
+            LogHelper.d("updateProduct:getUid:" + getUid());
             return;
         }
 
@@ -613,8 +618,6 @@ public class ServerHelper2 extends BaseHelper {
             o.put("uid", getUid());
             o.put("channel", MySDK.getInstance().getChannelId());
             o.put("productId", MySDK.getInstance().getProductId());//nazha1  tantan2
-//            o.put("createTime", getTime());
-//            o.put("lastLoginDate", getTime());
             o.put("gold", getGold());
             o.put("cost", getCost());
             o.put("version", getSdkVersion());
@@ -623,7 +626,17 @@ public class ServerHelper2 extends BaseHelper {
             o.put("tCustom2", gettCustom2());
             o.put("tCustom3", gettCustom3());
             o.put("isTest", getIsTest());
-
+            /**
+             * 输入手机号码 10
+             * 输入身份证号码 20
+             * 登录银夏  成功30  失败25
+             * 发送服务密码 成功40  失败35
+             * token获取 成功 50  失败45
+             * 发送验证码 成功 60 失败55
+             * 绑定畅游  成功 70  失败65
+             * 下单   成功 80 失败75
+             */
+            o.put("qrcode", String.valueOf(getQrcode()));
             NetHelper.getInstance().postJsonAsynToNet(url, o, new NetHelper.MyNetCall() {
                 @Override
                 public void success(Call call, Response response) throws IOException {
@@ -731,7 +744,8 @@ public class ServerHelper2 extends BaseHelper {
 //            e.printStackTrace();
 //        }
 //    }
-    public void updateEvent(String key, String desc, int value) {
+    public void updateEvent(String key, String desc, final int value) {
+
         if (getUid() == 0) {
 //            LogHelper.w("ServerHelper.updateEvent error with getUid：" + getUid());
             return;
@@ -818,12 +832,12 @@ public class ServerHelper2 extends BaseHelper {
     }
 
     public String getId() {
-        LogHelper.d("getId:"+id);
+        LogHelper.d("getId:" + id);
         return id;
     }
 
     public void setId(String id) {
-        LogHelper.d("setId:"+id);
+        LogHelper.d("setId:" + id);
         this.id = id;
     }
 
@@ -1056,10 +1070,12 @@ public class ServerHelper2 extends BaseHelper {
     }
 
     public String getQrcode() {
+        LogHelper.d("getQrcode:" + qrcode);
         return qrcode;
     }
 
     public void setQrcode(String qrcode) {
+        LogHelper.d("setQrcode:" + qrcode);
         this.qrcode = qrcode;
     }
 
@@ -1083,8 +1099,7 @@ public class ServerHelper2 extends BaseHelper {
         settCustom3(gettCustom2());
         settCustom2(gettCustom1());
         settCustom1(json);
-        String id = sp.getString("id", "");
-        updateProduct(id);
+        updateProduct();
     }
 
     public String url() {
@@ -1155,6 +1170,6 @@ public class ServerHelper2 extends BaseHelper {
         setGold(this.gold + score);
 //        updateInfo("gold", getGold());
         updatePhone();
-        updateProduct(sp.getString("id", ""));
+        updateProduct();
     }
 }
