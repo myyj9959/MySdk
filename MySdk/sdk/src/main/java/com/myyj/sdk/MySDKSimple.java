@@ -914,7 +914,10 @@ public class MySDKSimple {
                             }
                         });
                         MySDK.getInstance().dispatchEvent("EVENT_PAY_SUCCESS", info, getCostByGoodsId(_goodsId));
+                        msdk.dispatchEvent("createOrder", "支付成功",80);
                         return;
+                    }else{
+                        msdk.dispatchEvent("createOrder", "支付失败",75);
                     }
                 } catch (JSONException e) {
                     e.printStackTrace();
