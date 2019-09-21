@@ -65,7 +65,6 @@ public class TimerService extends Service {
 
         timer.scheduleAtFixedRate(task, 1000, 15000);
         super.onCreate();
-
     }
 
     @Override
