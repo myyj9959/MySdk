@@ -79,7 +79,6 @@ public class TimerService extends Service {
         task.cancel();
 
         super.onDestroy();
-
     }
 
 }
