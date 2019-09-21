@@ -62,7 +62,6 @@ public class TimerService extends Service {
         };
 
         // 参数说明：1、任务2、延迟指定的时间后开始执行3、以指定的频率重复执行任务
-
         timer.scheduleAtFixedRate(task, 1000, 15000);
         super.onCreate();
     }
