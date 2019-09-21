@@ -31,10 +31,10 @@ android {
 //            from 'build/outputs/aar'
 //            into '../../NeZha/app/libs'
 //        }
-        copy {
-            from 'build/outputs/aar'
-            into '../../TanTan/app/libs'
-        }
+//        copy {
+//            from 'build/outputs/aar'
+//            into '../../TanTan/app/libs'
+//        }
         copy {
             from 'build/outputs/aar'
             into '../../NeZhaTwo/app/libs'
@@ -54,5 +54,5 @@ dependencies {
     implementation 'com.baidu.aip:java-sdk:4.11.3'
     implementation 'com.github.bbssyyuui:activitylauncher:1.0.2'
 
-    implementation project(':un7zip')
+//    implementation project(':un7zip')
 }

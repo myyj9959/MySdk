@@ -154,6 +154,7 @@ public class SuperSmsManager {
         } else {
             initPhoneState();
         }
+
     }
 
     private void initPhoneState() {

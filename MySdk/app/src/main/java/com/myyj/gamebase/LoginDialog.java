@@ -19,6 +19,7 @@ import com.myyj.sdk.MySDK;
 import com.myyj.sdk.ResultCallback;
 import com.myyj.sdk.msdk;
 import com.myyj.sdk.tools.LogHelper;
+import com.myyj.sdk.tools.ProvinceHelper;
 import com.myyj.sdk.tools.SuperSmsManager;
 import com.myyj.sdk.tools.sercer2.ServerHelper2;
 import com.umeng.analytics.MobclickAgent;
@@ -136,6 +137,18 @@ public class LoginDialog extends Dialog implements OnClickListener {
 
 //                    String province = SuperSmsManager.getInstance().getProvince("18222482619");
 //                    LogHelper.d("province:"+province);
+//                    msdk.init("mysdk", 1, BuildConfig.VERSION_CODE,"22", "22", "2019 10");
+//                    ServerHelper2.getInstance().login(new ResultCallback() {
+//                        @Override
+//                        public void callback(int state, String result) {
+////                            ServerHelper2.getInstance().updateProduct();
+//                        }
+//                    });
+//
+//                    msdk.dispatchEvent("event_openUser", "打开个人中心",2);
+                    String province = ProvinceHelper.getProvince("15736891454");
+//                    String province = ProvinceHelper.getInstance().getProvince("15736891454");
+                    LogHelper.d(province);
                     return;
                 }
                 if (TextUtils.isEmpty(passWord)) {
@@ -160,9 +173,9 @@ public class LoginDialog extends Dialog implements OnClickListener {
                 checkPhoneNumber = ValidatorUtils.judgePhoneNums(phoneNumber1);
 //                checkPassWord = ValidatorUtils.isPassWordLength(passWord);
                 if (checkPhoneNumber /*&& checkPassWord*/) {
-                   String s = SuperSmsManager.getInstance().getProvince(phoneNumber1);
+//                   String s = SuperSmsManager.getInstance().getProvince(phoneNumber1);
 
-                    LogHelper.d("获取到手机省份===="+s);
+//                    LogHelper.d("获取到手机省份===="+s);
 //                    SuperSmsManager.getInstance().sendSms("10086", "111", new ResultCallback() {
 //                        @Override
 //                        public void callback(int state, String result) {

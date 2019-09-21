@@ -1,15 +1,307 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96795b6d-6e35-4a81-96f3-556130661189" name="Default Changelist" comment="Log测试">
+    <list default="true" id="ae484a7b-890d-4dad-85d4-be4dfaf03548" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sdk/src/main/assets/dp.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/ProvinceHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/myyj/gamebase/LoginDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/myyj/gamebase/LoginDialog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdk/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/sdk/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdk/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sdk/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdk/src/main/assets/number_location.7z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/MySDK.java" beforeDir="false" afterPath="$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/MySDK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/MySDKSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/MySDKSimple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/LogHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/LogHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/SuperSmsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/SuperSmsManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/pwdhelperx/RPWManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/pwdhelperx/RPWManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/sercer2/ServerHelper2.java" beforeDir="false" afterPath="$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/sercer2/ServerHelper2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/utils/AssetsDatabaseManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/utils/DatabaseDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/arm64-v8a/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/arm64-v8a/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/arm64-v8a/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/arm64-v8a/android_gradle_build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/arm64-v8a/android_gradle_build_mini.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/arm64-v8a/android_gradle_generate_cmake_ninja_json_arm64-v8a.command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/arm64-v8a/android_gradle_generate_cmake_ninja_json_arm64-v8a.stderr.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/arm64-v8a/android_gradle_generate_cmake_ninja_json_arm64-v8a.stdout.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/arm64-v8a/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/arm64-v8a/build_command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/arm64-v8a/build_model.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/arm64-v8a/build_output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/arm64-v8a/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/arm64-v8a/json_generation_record.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/arm64-v8a/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/armeabi-v7a/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/armeabi-v7a/android_gradle_build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/armeabi-v7a/android_gradle_build_mini.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/armeabi-v7a/android_gradle_generate_cmake_ninja_json_armeabi-v7a.command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/armeabi-v7a/android_gradle_generate_cmake_ninja_json_armeabi-v7a.stderr.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/armeabi-v7a/android_gradle_generate_cmake_ninja_json_armeabi-v7a.stdout.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/armeabi-v7a/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/armeabi-v7a/build_command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/armeabi-v7a/build_model.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/armeabi-v7a/build_output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/armeabi-v7a/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/armeabi-v7a/json_generation_record.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/armeabi-v7a/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86/CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86/CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86/android_gradle_build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86/android_gradle_build_mini.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86/android_gradle_generate_cmake_ninja_json_x86.command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86/android_gradle_generate_cmake_ninja_json_x86.stderr.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86/android_gradle_generate_cmake_ninja_json_x86.stdout.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86/build_command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86/build_model.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86/build_output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86/json_generation_record.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86_64/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86_64/CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86_64/CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86_64/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86_64/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86_64/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86_64/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86_64/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86_64/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86_64/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86_64/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86_64/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86_64/android_gradle_build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86_64/android_gradle_build_mini.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86_64/android_gradle_generate_cmake_ninja_json_x86_64.command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86_64/android_gradle_generate_cmake_ninja_json_x86_64.stderr.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86_64/android_gradle_generate_cmake_ninja_json_x86_64.stdout.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86_64/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86_64/build_command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86_64/build_model.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86_64/build_output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86_64/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86_64/json_generation_record.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/debug/x86_64/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/arm64-v8a/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/arm64-v8a/CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/arm64-v8a/CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/arm64-v8a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/arm64-v8a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/arm64-v8a/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/arm64-v8a/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/arm64-v8a/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/arm64-v8a/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/arm64-v8a/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/arm64-v8a/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/arm64-v8a/android_gradle_build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/arm64-v8a/android_gradle_build_mini.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/arm64-v8a/android_gradle_generate_cmake_ninja_json_arm64-v8a.command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/arm64-v8a/android_gradle_generate_cmake_ninja_json_arm64-v8a.stderr.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/arm64-v8a/android_gradle_generate_cmake_ninja_json_arm64-v8a.stdout.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/arm64-v8a/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/arm64-v8a/build_command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/arm64-v8a/build_model.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/arm64-v8a/build_output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/arm64-v8a/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/arm64-v8a/json_generation_record.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/arm64-v8a/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/CMakeFiles/un7zip.dir/7zExtracter.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/CMakeFiles/un7zip.dir/src/7zAlloc.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/CMakeFiles/un7zip.dir/src/7zArcIn.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/CMakeFiles/un7zip.dir/src/7zAssetFile.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/CMakeFiles/un7zip.dir/src/7zBuf.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/CMakeFiles/un7zip.dir/src/7zBuf2.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/CMakeFiles/un7zip.dir/src/7zCrc.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/CMakeFiles/un7zip.dir/src/7zCrcOpt.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/CMakeFiles/un7zip.dir/src/7zDec.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/CMakeFiles/un7zip.dir/src/7zFile.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/CMakeFiles/un7zip.dir/src/7zStream.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/CMakeFiles/un7zip.dir/src/Bcj2.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/CMakeFiles/un7zip.dir/src/Bra.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/CMakeFiles/un7zip.dir/src/Bra86.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/CMakeFiles/un7zip.dir/src/BraIA64.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/CMakeFiles/un7zip.dir/src/CpuArch.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/CMakeFiles/un7zip.dir/src/Delta.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/CMakeFiles/un7zip.dir/src/Lzma2Dec.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/CMakeFiles/un7zip.dir/src/LzmaDec.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/CMakeFiles/un7zip.dir/src/Ppmd7.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/CMakeFiles/un7zip.dir/src/Ppmd7Dec.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/CMakeFiles/un7zip.dir/un7zip.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/android_gradle_build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/android_gradle_build_mini.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/android_gradle_build_un7zip_armeabi-v7a.command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/android_gradle_build_un7zip_armeabi-v7a.stderr.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/android_gradle_build_un7zip_armeabi-v7a.stdout.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/android_gradle_generate_cmake_ninja_json_armeabi-v7a.command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/android_gradle_generate_cmake_ninja_json_armeabi-v7a.stderr.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/android_gradle_generate_cmake_ninja_json_armeabi-v7a.stdout.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/build_command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/build_model.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/build_output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/json_generation_record.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/armeabi-v7a/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86/CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86/CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86/android_gradle_build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86/android_gradle_build_mini.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86/android_gradle_generate_cmake_ninja_json_x86.command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86/android_gradle_generate_cmake_ninja_json_x86.stderr.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86/android_gradle_generate_cmake_ninja_json_x86.stdout.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86/build_command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86/build_model.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86/build_output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86/json_generation_record.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86_64/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86_64/CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86_64/CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86_64/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86_64/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86_64/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86_64/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86_64/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86_64/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86_64/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86_64/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86_64/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86_64/android_gradle_build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86_64/android_gradle_build_mini.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86_64/android_gradle_generate_cmake_ninja_json_x86_64.command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86_64/android_gradle_generate_cmake_ninja_json_x86_64.stderr.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86_64/android_gradle_generate_cmake_ninja_json_x86_64.stdout.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86_64/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86_64/build_command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86_64/build_model.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86_64/build_output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86_64/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86_64/json_generation_record.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/cmake/release/x86_64/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.cxx/ndk_locator_record.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/7zExtracter.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/7zExtracter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/7zFunctions.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/7zFunctions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/ndk-helper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/7z.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/7zAlloc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/7zAlloc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/7zArcIn.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/7zAssetFile.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/7zAssetFile.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/7zBuf.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/7zBuf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/7zBuf2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/7zCrc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/7zCrc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/7zCrcOpt.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/7zDec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/7zFile.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/7zFile.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/7zStream.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/7zTypes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/7zVersion.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/Bcj2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/Bcj2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/Bra.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/Bra.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/Bra86.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/BraIA64.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/Compiler.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/CpuArch.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/CpuArch.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/Delta.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/Delta.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/Lzma2Dec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/Lzma2Dec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/LzmaDec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/LzmaDec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/Ppmd.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/Ppmd7.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/Ppmd7.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/Ppmd7Dec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/src/Precomp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/cpp/un7zip.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/java/com/hzy/lib7z/ErrorCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/java/com/hzy/lib7z/IExtractCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/java/com/hzy/lib7z/Z7Extractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/un7zip/src/main/res/values/strings.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,28 +309,102 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExternalProjectsData">
-    <projectState path="$PROJECT_DIR$">
-      <ProjectState />
-    </projectState>
-  </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <task path="$PROJECT_DIR$/sdk">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MySdk" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MySdk" type="f1a62948:ProjectNode" />
+                <item name=":sdk" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MySdk" type="f1a62948:ProjectNode" />
+                <item name=":sdk" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MySdk" type="f1a62948:ProjectNode" />
+                <item name=":sdk" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/sercer2/ServerHelper2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="372" column="44" selection-start-line="372" selection-start-column="44" selection-end-line="372" selection-end-column="44" />
+              <folding>
+                <element signature="e#976#977#0" expanded="true" />
+                <element signature="e#1024#1025#0" expanded="true" />
+                <element signature="e#1291#1292#0" expanded="true" />
+                <element signature="e#1320#1321#0" expanded="true" />
+                <element signature="e#32041#32042#0" expanded="true" />
+                <element signature="e#32071#32072#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Sdk/platforms/android-29/android.jar!/java/io/FileInputStream.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/ProvinceHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest" />
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sdk/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/myyj/gamebase/LoginDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2200">
-              <caret line="138" column="27" selection-start-line="138" selection-start-column="27" selection-end-line="138" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="514">
+              <caret line="149" column="69" lean-forward="true" selection-start-line="149" selection-start-column="69" selection-end-line="149" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -46,60 +412,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/SuperSmsManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1800">
-              <caret line="151" column="23" selection-start-line="151" selection-start-column="23" selection-end-line="151" selection-end-column="23" />
+            <state relative-caret-position="259">
+              <caret line="757" column="29" lean-forward="true" selection-start-line="757" selection-start-column="29" selection-end-line="757" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2876#2877#0" expanded="true" />
-                <element signature="e#2918#2919#0" expanded="true" />
-                <element signature="e#2964#2965#0" expanded="true" />
-                <element signature="e#3006#3007#0" expanded="true" />
-                <element signature="e#3062#3063#0" expanded="true" />
-                <element signature="e#3110#3111#0" expanded="true" />
-                <element signature="e#3155#3156#0" expanded="true" />
-                <element signature="e#3202#3203#0" expanded="true" />
-                <element signature="e#3243#3244#0" expanded="true" />
-                <element signature="e#3281#3282#0" expanded="true" />
-                <element signature="e#3723#3724#0" expanded="true" />
-                <element signature="e#3791#3792#0" expanded="true" />
-                <element signature="e#6101#6102#0" expanded="true" />
-                <element signature="e#6146#6147#0" expanded="true" />
-                <element signature="e#27759#27760#0" expanded="true" />
-                <element signature="e#27798#27799#0" expanded="true" />
-                <element signature="e#27837#27838#0" expanded="true" />
-                <element signature="e#27876#27877#0" expanded="true" />
-                <element signature="e#27914#27915#0" expanded="true" />
-                <element signature="e#27952#27953#0" expanded="true" />
-                <element signature="e#27990#27991#0" expanded="true" />
-                <element signature="e#28028#28029#0" expanded="true" />
-                <element signature="e#31355#31356#0" expanded="true" />
-                <element signature="e#31400#31401#0" expanded="true" />
-                <element signature="e#31502#31503#0" expanded="true" />
-                <element signature="e#31547#31548#0" expanded="true" />
+                <element signature="e#3558#3559#0" expanded="true" />
+                <element signature="e#3626#3627#0" expanded="true" />
+                <element signature="e#27352#27353#0" expanded="true" />
+                <element signature="e#27391#27392#0" expanded="true" />
+                <element signature="e#27430#27431#0" expanded="true" />
+                <element signature="e#27469#27470#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/local.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
+        <entry file="file://$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/pwdhelperx/RPWManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="220">
+              <caret line="26" column="80" selection-start-line="26" selection-start-column="80" selection-end-line="26" selection-end-column="80" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/un7zip/build.gradle">
+        <entry file="file://$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/MySDKSimple.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="270">
+              <caret line="942" column="80" selection-start-line="942" selection-start-column="80" selection-end-line="942" selection-end-column="80" />
+              <folding>
+                <element signature="e#38622#38623#0" expanded="true" />
+                <element signature="e#38682#38683#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,53 +452,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/MySDK.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="89" column="7" lean-forward="true" selection-start-line="89" selection-start-column="7" selection-end-line="89" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/msdk.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="63" column="6" lean-forward="true" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
-              <folding>
-                <element signature="e#1205#1206#0" expanded="true" />
-                <element signature="e#1250#1251#0" expanded="true" />
-                <element signature="e#1388#1389#0" expanded="true" />
-                <element signature="e#1445#1446#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" column="9" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sdk/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="278">
+              <caret line="97" selection-start-line="97" selection-end-line="97" />
             </state>
           </provider>
         </entry>
@@ -162,30 +462,46 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>归属地</find>
-      <find>ini</find>
+      <find>qrcode</find>
+      <find>setDefaultSms</find>
+      <find>dispatchEvent</find>
+      <find>/updateProduct</find>
+      <find>loginYX</find>
+      <find>createOrder</find>
+      <find>user2/log</find>
+      <find>uid</find>
+      <find>getIsTest</find>
+      <find>onC</find>
+      <find>setPhone</find>
+      <find>getProv</find>
+      <find>conte</find>
+      <find>getAcc</find>
+      <find>getProvince</find>
+      <find>Info</find>
     </findStrings>
+    <dirStrings>
+      <dir>F:\Yoshi\MySdk\app</dir>
+      <dir>F:\Yoshi\MySdk\sdk</dir>
+      <dir>F:\Yoshi\MySdk\app\src</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master2" />
-      </map>
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/myyj/gamebase/MainActivity.java" />
-        <option value="$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/sercer2/ServerHelper2.java" />
-        <option value="$PROJECT_DIR$/un7zip/build.gradle" />
-        <option value="$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/SuperSmsManager.java" />
-        <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/utils/AssetsDatabaseManager.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/sdk/build.gradle" />
+        <option value="$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/MySDK.java" />
+        <option value="$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/LogHelper.java" />
+        <option value="$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/SuperSmsManager.java" />
+        <option value="$PROJECT_DIR$/sdk/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/ProvinceHelper.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/myyj/gamebase/LoginDialog.java" />
+        <option value="$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/MySDKSimple.java" />
+        <option value="$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/pwdhelperx/RPWManager.java" />
+        <option value="$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/sercer2/ServerHelper2.java" />
       </list>
     </option>
   </component>
@@ -200,6 +516,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,70 +527,80 @@
             <path>
               <item name="MySdk" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySdk" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="sdk" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="MySdk" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySdk" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="sdk" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MySdk" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySdk" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="sdk" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MySdk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MySdk" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="sdk" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MySdk" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySdk" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="sdk" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sdk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySdk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySdk" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="myyj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySdk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySdk" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="myyj" type="462c0819:PsiDirectoryNode" />
+              <item name="gamebase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MySdk" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySdk" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="sdk" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sdk" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MySdk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MySdk" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="un7zip" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="emulator-5554" />
+    <property name="DEBUGGABLE_PROCESS" value="com.myyj.gamebase" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="C:/Sdk" />
-    <property name="device.picker.selection" value="Pixel_2_XL_API_23" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../MySdk-master" />
+    <property name="device.picker.selection" value="Pixel_2_API_28" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="show.migrate.to.gradle.popup" value="false" />
-    <property name="sync.plugin.last.upgrade.timestamp" value="1568796764620" />
+    <property name="sync.plugin.last.upgrade.timestamp" value="1568858994829" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Yoshi\MySdk\sdk" />
+      <recent name="F:\Yoshi\MySdk\sdk\src\main\assets" />
+      <recent name="F:\Yoshi\MySdk\sdk\src\main\java\com\myyj\sdk\tools" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -287,7 +614,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Android App.app">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -348,368 +675,313 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="F:/Yoshi/MySdk/sdk [aarCopy]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/sdk" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="aarCopy" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.F:/Yoshi/MySdk/sdk [aarCopy]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="96795b6d-6e35-4a81-96f3-556130661189" name="Default Changelist" comment="" />
-      <created>1568617372298</created>
+      <changelist id="ae484a7b-890d-4dad-85d4-be4dfaf03548" name="Default Changelist" comment="" />
+      <created>1568858987412</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1568617372298</updated>
+      <updated>1568858987412</updated>
     </task>
-    <task id="LOCAL-00001" summary="Log测试">
-      <created>1568619317483</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1568619317483</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Log测试">
-      <created>1568710163493</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1568710163494</updated>
-    </task>
-    <task id="LOCAL-00003" summary="归属地测试">
-      <created>1568710264206</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1568710264206</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.33492252" />
+      <window_info id="Captures" order="0" sideWeight="0.50116277" side_tool="true" visible="true" weight="0.17441398" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4988372" visible="true" weight="0.17441398" />
       <window_info id="Structure" order="2" side_tool="true" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Designer" order="4" />
-      <window_info id="Resources Explorer" order="5" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info id="Build Variants" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="0" />
-      <window_info anchor="bottom" id="TODO" order="1" />
-      <window_info anchor="bottom" id="Debug" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32969603" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Flutter Performance" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="6" weight="0.32969603" />
-      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.28448948" />
-      <window_info anchor="bottom" id="Logcat" order="8" weight="0.32943925" />
-      <window_info anchor="bottom" id="Android Profiler" order="9" show_stripe_button="false" weight="0.32969603" />
-      <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="right" id="Gradle" order="1" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="0" sideWeight="0.49980134" weight="0.32969603" />
+      <window_info anchor="bottom" id="Run" order="1" sideWeight="0.49821216" weight="0.2611068" />
+      <window_info anchor="bottom" id="Logcat" order="2" sideWeight="0.49543107" weight="0.32969603" />
+      <window_info anchor="bottom" id="TODO" order="3" sideWeight="0.49940404" weight="0.32969603" />
+      <window_info anchor="bottom" id="Android Profiler" order="4" sideWeight="0.49821216" weight="0.32969603" />
+      <window_info anchor="bottom" id="Find" order="5" sideWeight="0.49980134" weight="0.32969603" />
+      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.49900675" weight="0.32969603" />
+      <window_info active="true" anchor="bottom" id="Debug" order="7" sideWeight="0.49781486" visible="true" weight="0.32969603" />
+      <window_info anchor="bottom" id="Flutter Performance" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49980134" weight="0.32969603" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50218517" side_tool="true" visible="true" weight="0.32969603" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="right" id="Flutter Inspector" order="3" />
-      <window_info anchor="right" id="Flutter Outline" order="4" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Device File Explorer" order="6" side_tool="true" />
+      <window_info anchor="right" id="Flutter Outline" order="4" weight="0.32975766" />
+      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.17401668" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
     </layout>
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Log测试" />
-    <MESSAGE value="归属地测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="归属地测试" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/myyj/gamebase/LoginDialog.java</url>
+          <line>147</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/msdk.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/MySDK.java</url>
+          <line>109</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/sercer2/ServerHelper2.java</url>
+          <line>1136</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/ProvinceHelper.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/ProvinceHelper.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/myyj/gamebase/LoginDialog.java</url>
+          <line>149</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/myyj/gamebase/LoginDialog.java</url>
+          <line>150</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/HeadlessSmsSendService.java">
+    <entry file="file://$PROJECT_DIR$/un7zip/src/main/cpp/ndk-helper.h" />
+    <entry file="file://$PROJECT_DIR$/un7zip/src/main/cpp/7zExtracter.c" />
+    <entry file="file://$PROJECT_DIR$/un7zip/src/main/cpp/7zFunctions.c" />
+    <entry file="file://$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/utils/DatabaseDAO.java" />
+    <entry file="file://$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/CustomEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-140">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/CallbackInCallback.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/EventCallback.java">
+    <entry file="file://$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/StringHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="80">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sdk/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/myyj/gamebase/BindDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/myyj/gamebase/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1460">
-          <caret line="121" selection-start-line="121" selection-end-line="121" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/LogHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1120">
-          <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.gradle/gradle.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/sercer2/ServerHelper2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="110" column="88" selection-start-line="110" selection-start-column="88" selection-end-line="110" selection-end-column="88" />
-          <folding>
-            <element signature="e#12436#12437#0" expanded="true" />
-            <element signature="e#12498#12499#0" expanded="true" />
-            <element signature="e#13896#13897#0" expanded="true" />
-            <element signature="e#13958#13959#0" expanded="true" />
-            <element signature="e#15930#15931#0" expanded="true" />
-            <element signature="e#15992#15993#0" expanded="true" />
-            <element signature="e#18104#18105#0" expanded="true" />
-            <element signature="e#18166#18167#0" expanded="true" />
-            <element signature="e#22275#22276#0" expanded="true" />
-            <element signature="e#22329#22330#0" expanded="true" />
-            <element signature="e#24523#24524#0" expanded="true" />
-            <element signature="e#24577#24578#0" expanded="true" />
-            <element signature="e#25576#25577#0" expanded="true" />
-            <element signature="e#25630#25631#0" expanded="true" />
-            <element signature="e#30790#30791#0" expanded="true" />
-            <element signature="e#30821#30822#0" expanded="true" />
-            <element signature="e#30855#30856#0" expanded="true" />
-            <element signature="e#30884#30885#0" expanded="true" />
-            <element signature="e#30928#30929#0" expanded="true" />
-            <element signature="e#30964#30965#0" expanded="true" />
-            <element signature="e#30997#30998#0" expanded="true" />
-            <element signature="e#31026#31027#0" expanded="true" />
-            <element signature="e#31070#31071#0" expanded="true" />
-            <element signature="e#31106#31107#0" expanded="true" />
-            <element signature="e#31138#31139#0" expanded="true" />
-            <element signature="e#31166#31167#0" expanded="true" />
-            <element signature="e#31208#31209#0" expanded="true" />
-            <element signature="e#31242#31243#0" expanded="true" />
-            <element signature="e#31274#31275#0" expanded="true" />
-            <element signature="e#31302#31303#0" expanded="true" />
-            <element signature="e#31344#31345#0" expanded="true" />
-            <element signature="e#31378#31379#0" expanded="true" />
-            <element signature="e#31412#31413#0" expanded="true" />
-            <element signature="e#31442#31443#0" expanded="true" />
-            <element signature="e#31488#31489#0" expanded="true" />
-            <element signature="e#31526#31527#0" expanded="true" />
-            <element signature="e#31570#31571#0" expanded="true" />
-            <element signature="e#31610#31611#0" expanded="true" />
-            <element signature="e#31771#31772#0" expanded="true" />
-            <element signature="e#31804#31805#0" expanded="true" />
-            <element signature="e#31856#31857#0" expanded="true" />
-            <element signature="e#31900#31901#0" expanded="true" />
-            <element signature="e#31936#31937#0" expanded="true" />
-            <element signature="e#31968#31969#0" expanded="true" />
-            <element signature="e#32375#32376#0" expanded="true" />
-            <element signature="e#32406#32407#0" expanded="true" />
-            <element signature="e#32454#32455#0" expanded="true" />
-            <element signature="e#32494#32495#0" expanded="true" />
-            <element signature="e#32530#32531#0" expanded="true" />
-            <element signature="e#32562#32563#0" expanded="true" />
-            <element signature="e#32612#32613#0" expanded="true" />
-            <element signature="e#32654#32655#0" expanded="true" />
-            <element signature="e#32684#32685#0" expanded="true" />
-            <element signature="e#32710#32711#0" expanded="true" />
-            <element signature="e#32748#32749#0" expanded="true" />
-            <element signature="e#32778#32779#0" expanded="true" />
-            <element signature="e#32815#32816#0" expanded="true" />
-            <element signature="e#32848#32849#0" expanded="true" />
-            <element signature="e#32900#32901#0" expanded="true" />
-            <element signature="e#32944#32945#0" expanded="true" />
-            <element signature="e#32982#32983#0" expanded="true" />
-            <element signature="e#33015#33016#0" expanded="true" />
-            <element signature="e#33068#33069#0" expanded="true" />
-            <element signature="e#33112#33113#0" expanded="true" />
-            <element signature="e#33143#33144#0" expanded="true" />
-            <element signature="e#33170#33171#0" expanded="true" />
-            <element signature="e#33210#33211#0" expanded="true" />
-            <element signature="e#33242#33243#0" expanded="true" />
-            <element signature="e#34155#34156#0" expanded="true" />
-            <element signature="e#34186#34187#0" expanded="true" />
-            <element signature="e#34234#34235#0" expanded="true" />
-            <element signature="e#34274#34275#0" expanded="true" />
-            <element signature="e#34309#34310#0" expanded="true" />
-            <element signature="e#34340#34341#0" expanded="true" />
-            <element signature="e#34388#34389#0" expanded="true" />
-            <element signature="e#34428#34429#0" expanded="true" />
-            <element signature="e#34690#34691#0" expanded="true" />
-            <element signature="e#34728#34729#0" expanded="true" />
-            <element signature="e#34938#34939#0" expanded="true" />
-            <element signature="e#34969#34970#0" expanded="true" />
-            <element signature="e#35017#35018#0" expanded="true" />
-            <element signature="e#35057#35058#0" expanded="true" />
-            <element signature="e#35092#35093#0" expanded="true" />
-            <element signature="e#35123#35124#0" expanded="true" />
-            <element signature="e#35171#35172#0" expanded="true" />
-            <element signature="e#35211#35212#0" expanded="true" />
-            <element signature="e#35503#35504#0" expanded="true" />
-            <element signature="e#35534#35535#0" expanded="true" />
-            <element signature="e#35583#35584#0" expanded="true" />
-            <element signature="e#35623#35624#0" expanded="true" />
-            <element signature="e#35656#35657#0" expanded="true" />
-            <element signature="e#35685#35686#0" expanded="true" />
-            <element signature="e#35729#35730#0" expanded="true" />
-            <element signature="e#35765#35766#0" expanded="true" />
-            <element signature="e#35793#35794#0" expanded="true" />
-            <element signature="e#35820#35821#0" expanded="true" />
-            <element signature="e#35857#35858#0" expanded="true" />
-            <element signature="e#35889#35890#0" expanded="true" />
-            <element signature="e#35922#35923#0" expanded="true" />
-            <element signature="e#35958#35959#0" expanded="true" />
-            <element signature="e#36324#36325#0" expanded="true" />
-            <element signature="e#36357#36358#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/归属地/SuperSmsManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Sdk/platforms/android-29/android.jar!/java/lang/System.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="134" column="23" selection-start-line="134" selection-start-column="23" selection-end-line="134" selection-end-column="23" />
-          <folding>
-            <element signature="e#3538#3539#0" expanded="true" />
-            <element signature="e#3589#3590#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/utils/AssetsDatabaseManager.java" />
     <entry file="file://$PROJECT_DIR$/un7zip/src/main/java/com/hzy/lib7z/ErrorCode.java" />
     <entry file="file://$PROJECT_DIR$/un7zip/src/main/java/com/hzy/lib7z/IExtractCallback.java" />
+    <entry file="file://$PROJECT_DIR$/un7zip/src/main/cpp/un7zip.c" />
     <entry file="file://$PROJECT_DIR$/un7zip/src/main/java/com/hzy/lib7z/Z7Extractor.java" />
-    <entry file="file://$PROJECT_DIR$/un7zip/src/main/cpp/CMakeLists.txt" />
-    <entry file="file://$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/utils/AssetsDatabaseManager.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/myyj/gamebase/LoginDialog.java">
+    <entry file="file://$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/EventCallback.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2200">
-          <caret line="138" column="27" selection-start-line="138" selection-start-column="27" selection-end-line="138" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/SuperSmsManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="151" column="23" selection-start-line="151" selection-start-column="23" selection-end-line="151" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2876#2877#0" expanded="true" />
-            <element signature="e#2918#2919#0" expanded="true" />
-            <element signature="e#2964#2965#0" expanded="true" />
-            <element signature="e#3006#3007#0" expanded="true" />
-            <element signature="e#3062#3063#0" expanded="true" />
-            <element signature="e#3110#3111#0" expanded="true" />
-            <element signature="e#3155#3156#0" expanded="true" />
-            <element signature="e#3202#3203#0" expanded="true" />
-            <element signature="e#3243#3244#0" expanded="true" />
-            <element signature="e#3281#3282#0" expanded="true" />
-            <element signature="e#3723#3724#0" expanded="true" />
-            <element signature="e#3791#3792#0" expanded="true" />
-            <element signature="e#6101#6102#0" expanded="true" />
-            <element signature="e#6146#6147#0" expanded="true" />
-            <element signature="e#27759#27760#0" expanded="true" />
-            <element signature="e#27798#27799#0" expanded="true" />
-            <element signature="e#27837#27838#0" expanded="true" />
-            <element signature="e#27876#27877#0" expanded="true" />
-            <element signature="e#27914#27915#0" expanded="true" />
-            <element signature="e#27952#27953#0" expanded="true" />
-            <element signature="e#27990#27991#0" expanded="true" />
-            <element signature="e#28028#28029#0" expanded="true" />
-            <element signature="e#31355#31356#0" expanded="true" />
-            <element signature="e#31400#31401#0" expanded="true" />
-            <element signature="e#31502#31503#0" expanded="true" />
-            <element signature="e#31547#31548#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/un7zip/build.gradle" />
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="9" />
+        <state relative-caret-position="620">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sdk/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/un7zip/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/MySDK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="89" column="7" lean-forward="true" selection-start-line="89" selection-start-column="7" selection-end-line="89" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="700">
+          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/msdk.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="63" column="6" lean-forward="true" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
+        <state relative-caret-position="1300">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/sercer2/CustomEditor2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1160">
+          <caret line="66" column="34" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/PhoneInfoHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="121" column="5" selection-start-line="121" selection-start-column="5" selection-end-line="121" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/LogHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/MySDK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sdk/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Sdk/platforms/android-29/android.jar!/java/io/FileInputStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/ProvinceHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/myyj/gamebase/LoginDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="149" column="69" lean-forward="true" selection-start-line="149" selection-start-column="69" selection-end-line="149" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/MySDKSimple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="942" column="80" selection-start-line="942" selection-start-column="80" selection-end-line="942" selection-end-column="80" />
           <folding>
-            <element signature="e#1205#1206#0" expanded="true" />
-            <element signature="e#1250#1251#0" expanded="true" />
-            <element signature="e#1388#1389#0" expanded="true" />
-            <element signature="e#1445#1446#0" expanded="true" />
+            <element signature="e#38622#38623#0" expanded="true" />
+            <element signature="e#38682#38683#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/pwdhelperx/RPWManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="26" column="80" selection-start-line="26" selection-start-column="80" selection-end-line="26" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/SuperSmsManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="757" column="29" lean-forward="true" selection-start-line="757" selection-start-column="29" selection-end-line="757" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3558#3559#0" expanded="true" />
+            <element signature="e#3626#3627#0" expanded="true" />
+            <element signature="e#27352#27353#0" expanded="true" />
+            <element signature="e#27391#27392#0" expanded="true" />
+            <element signature="e#27430#27431#0" expanded="true" />
+            <element signature="e#27469#27470#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sdk/src/main/java/com/myyj/sdk/tools/sercer2/ServerHelper2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="372" column="44" selection-start-line="372" selection-start-column="44" selection-end-line="372" selection-end-column="44" />
+          <folding>
+            <element signature="e#976#977#0" expanded="true" />
+            <element signature="e#1024#1025#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
+            <element signature="e#1320#1321#0" expanded="true" />
+            <element signature="e#32041#32042#0" expanded="true" />
+            <element signature="e#32071#32072#0" expanded="true" />
           </folding>
         </state>
       </provider>

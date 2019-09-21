@@ -1,11 +1,11 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:2:1-57:12
-INJECTED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:2:1-57:12
-INJECTED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:2:1-57:12
-INJECTED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:2:1-57:12
+ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:2:1-57:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c699b0985c3a9e99e55b15c468201951\AndroidManifest.xml:17:1-24:12
-MERGED from [:sdk] F:\sdk\loophost\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-54:12
+MERGED from [:sdk] F:\Yoshi\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-56:12
 MERGED from [com.bfy:dualsim:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f8d2cce50b2f4c9d3f21df7fdf0e3653\AndroidManifest.xml:2:1-17:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cfcd61435537c4c37dcaa97f618081da\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\eadf16758094e41177f25040e7612b12\AndroidManifest.xml:2:1-11:12
@@ -40,30 +40,29 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Administrator
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3390b04047524b7e280f0985b2314158\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\96096cbdd69f317754b83d0a452f4a55\AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.bbssyyuui:activitylauncher:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1b1806d6933acb3458b152b440077b9f\AndroidManifest.xml:2:1-11:12
-MERGED from [:un7zip] F:\sdk\loophost\MySdk\un7zip\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-13:12
-INJECTED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:2:1-57:12
-INJECTED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:2:1-57:12
-INJECTED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:2:1-57:12
 	package
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:3:5-32
-		INJECTED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml
-		INJECTED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:3:5-32
+		INJECTED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:2:1-57:12
-		INJECTED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:2:1-57:12
+		INJECTED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:2:1-57:12
-		INJECTED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:2:1-57:12
+		INJECTED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:5:5-44:19
+ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:5:5-44:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c699b0985c3a9e99e55b15c468201951\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c699b0985c3a9e99e55b15c468201951\AndroidManifest.xml:22:5-20
-MERGED from [:sdk] F:\sdk\loophost\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-52:19
-MERGED from [:sdk] F:\sdk\loophost\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-52:19
+MERGED from [:sdk] F:\Yoshi\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-54:19
+MERGED from [:sdk] F:\Yoshi\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-54:19
 MERGED from [com.bfy:dualsim:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f8d2cce50b2f4c9d3f21df7fdf0e3653\AndroidManifest.xml:14:5-15:19
 MERGED from [com.bfy:dualsim:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f8d2cce50b2f4c9d3f21df7fdf0e3653\AndroidManifest.xml:14:5-15:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\eadf16758094e41177f25040e7612b12\AndroidManifest.xml:9:5-20
@@ -74,144 +73,142 @@ MERGED from [androidx.core:core:1.0.1] C:\Users\Administrator\.gradle\caches\tra
 MERGED from [androidx.core:core:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8988d8d1c2419fae16dd1f91bb12a52e\AndroidManifest.xml:22:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c5b92ca96a3a1ecca882ff009796663\AndroidManifest.xml:22:5-23:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c5b92ca96a3a1ecca882ff009796663\AndroidManifest.xml:22:5-23:19
-MERGED from [:un7zip] F:\sdk\loophost\MySdk\un7zip\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-20
-MERGED from [:un7zip] F:\sdk\loophost\MySdk\un7zip\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-20
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8988d8d1c2419fae16dd1f91bb12a52e\AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:11:9-35
 	android:label
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:9:9-41
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:9:9-41
 	android:roundIcon
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:10:9-54
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:10:9-54
 	android:icon
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:8:9-43
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:8:9-43
 	android:allowBackup
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:7:9-35
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:13:9-40
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:13:9-40
 	android:usesCleartextTraffic
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:12:9-44
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:12:9-44
 	android:name
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:6:9-38
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:6:9-38
 activity#com.myyj.gamebase.MainActivity
-ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:14:9-36:20
+ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:14:9-36:20
 	android:screenOrientation
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:18:13-49
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:18:13-49
 	android:label
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:16:13-45
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:16:13-45
 	android:theme
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:17:13-56
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:17:13-56
 	android:name
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:15:13-41
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:15:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:19:13-25:29
+ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:19:13-25:29
 action#android.intent.action.MAIN
-ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:20:17-69
+ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:20:25-66
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:24:17-77
+ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:24:27-74
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:24:27-74
 intent-filter#action:name:android.intent.action.SEND+action:name:android.intent.action.SENDTO+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:mms+data:scheme:mmsto+data:scheme:sms+data:scheme:smsto
-ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:26:13-35:29
+ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:26:13-35:29
 action#android.intent.action.SEND
-ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:27:17-69
+ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:27:25-66
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:27:25-66
 action#android.intent.action.SENDTO
-ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:28:17-71
+ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:28:17-71
 	android:name
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:28:25-68
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:28:25-68
 category#android.intent.category.DEFAULT
-ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:29:17-76
+ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:29:17-76
 	android:name
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:29:27-73
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:29:27-73
 category#android.intent.category.BROWSABLE
-ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:30:17-78
+ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:30:17-78
 	android:name
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:30:27-75
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:30:27-75
 data
-ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:31:17-46
+ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:31:17-46
 	android:scheme
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:31:23-43
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:31:23-43
 service#com.myyj.gamebase.udid.OpenUDID_service
-ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:37:9-41:19
+ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:37:9-41:19
 	android:name
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:37:18-72
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:37:18-72
 intent-filter#action:name:org.openudid.GETUDID
-ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:38:13-40:29
+ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:38:13-40:29
 action#org.openudid.GETUDID
-ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:39:17-63
+ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:39:17-63
 	android:name
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:39:25-60
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:39:25-60
 meta-data#UMENG_APPKEY
-ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:42:9-90
+ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:42:9-90
 	android:value
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:42:48-88
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:42:48-88
 	android:name
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:42:20-47
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:42:20-47
 meta-data#UMENG_CHANNEL
-ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:43:9-72
+ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:43:9-72
 	android:value
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:43:49-69
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:43:49-69
 	android:name
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:43:20-48
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:43:20-48
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:46:5-79
+ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:46:5-79
 MERGED from [com.bfy:dualsim:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f8d2cce50b2f4c9d3f21df7fdf0e3653\AndroidManifest.xml:11:5-79
 MERGED from [com.bfy:dualsim:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f8d2cce50b2f4c9d3f21df7fdf0e3653\AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:46:22-76
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:46:22-76
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:47:5-75
-MERGED from [:sdk] F:\sdk\loophost\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-75
-MERGED from [:sdk] F:\sdk\loophost\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-75
+ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:47:5-75
+MERGED from [:sdk] F:\Yoshi\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-75
+MERGED from [:sdk] F:\Yoshi\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-75
 MERGED from [com.bfy:dualsim:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f8d2cce50b2f4c9d3f21df7fdf0e3653\AndroidManifest.xml:12:5-75
 MERGED from [com.bfy:dualsim:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f8d2cce50b2f4c9d3f21df7fdf0e3653\AndroidManifest.xml:12:5-75
 	android:name
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:47:22-72
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:47:22-72
 uses-permission#android.permission.READ_PHONE_NUMBERS
-ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:48:5-77
+ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:48:5-77
 	android:name
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:48:22-74
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:48:22-74
 uses-permission#android.permission.CALL_PHONE
-ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:49:5-69
+ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:49:5-69
 	android:name
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:49:22-66
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:49:22-66
 uses-permission#android.permission.SEND_SMS
-ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:50:5-67
+ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:50:5-67
 	android:name
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:50:22-64
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:50:22-64
 uses-permission#android.permission.READ_SMS
-ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:51:5-67
+ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:51:5-67
 	android:name
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:51:22-64
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:51:22-64
 uses-permission#android.permission.WRITE_SMS
-ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:52:5-67
+ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:52:5-67
 	android:name
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:52:22-65
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:52:22-65
 uses-permission#android.permission.RECEIVE_SMS
-ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:53:5-70
+ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:53:5-70
 	android:name
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:53:22-67
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:53:22-67
 uses-permission#android.permission.INTERNET
-ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:54:5-67
+ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:54:5-67
 	android:name
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:54:22-64
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:54:22-64
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:55:5-76
+ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:55:5-76
 	android:name
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml:55:22-73
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml:55:22-73
 uses-sdk
-INJECTED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml
-INJECTED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml
+INJECTED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml
+INJECTED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c699b0985c3a9e99e55b15c468201951\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c699b0985c3a9e99e55b15c468201951\AndroidManifest.xml:20:5-44
-MERGED from [:sdk] F:\sdk\loophost\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:sdk] F:\sdk\loophost\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:sdk] F:\Yoshi\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:sdk] F:\Yoshi\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [com.bfy:dualsim:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f8d2cce50b2f4c9d3f21df7fdf0e3653\AndroidManifest.xml:7:5-9:41
 MERGED from [com.bfy:dualsim:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f8d2cce50b2f4c9d3f21df7fdf0e3653\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cfcd61435537c4c37dcaa97f618081da\AndroidManifest.xml:20:5-44
@@ -280,60 +277,66 @@ MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Administrator\.grad
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\96096cbdd69f317754b83d0a452f4a55\AndroidManifest.xml:20:5-44
 MERGED from [com.github.bbssyyuui:activitylauncher:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1b1806d6933acb3458b152b440077b9f\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.bbssyyuui:activitylauncher:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1b1806d6933acb3458b152b440077b9f\AndroidManifest.xml:7:5-9:41
-MERGED from [:un7zip] F:\sdk\loophost\MySdk\un7zip\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:un7zip] F:\sdk\loophost\MySdk\un7zip\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-INJECTED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml
-INJECTED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml
+INJECTED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml
+INJECTED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml
-		INJECTED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml
-		ADDED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml
-		INJECTED from F:\sdk\loophost\MySdk\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml
+		ADDED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Yoshi\MySdk\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:sdk] F:\Yoshi\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from [:sdk] F:\Yoshi\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:sdk] F:\Yoshi\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from [:sdk] F:\Yoshi\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-78
 receiver#com.myyj.sdk.SmsReceiver
-ADDED from [:sdk] F:\sdk\loophost\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-22:20
+ADDED from [:sdk] F:\Yoshi\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-24:20
 	android:permission
-		ADDED from [:sdk] F:\sdk\loophost\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-66
+		ADDED from [:sdk] F:\Yoshi\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-66
 	android:name
-		ADDED from [:sdk] F:\sdk\loophost\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-52
+		ADDED from [:sdk] F:\Yoshi\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-52
 intent-filter#action:name:android.provider.Telephony.SMS_DELIVER
-ADDED from [:sdk] F:\sdk\loophost\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-21:29
+ADDED from [:sdk] F:\Yoshi\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-23:29
 action#android.provider.Telephony.SMS_DELIVER
-ADDED from [:sdk] F:\sdk\loophost\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:17-81
+ADDED from [:sdk] F:\Yoshi\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-81
 	android:name
-		ADDED from [:sdk] F:\sdk\loophost\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:25-78
+		ADDED from [:sdk] F:\Yoshi\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:25-78
 receiver#com.myyj.sdk.MmsReceiver
-ADDED from [:sdk] F:\sdk\loophost\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:9-33:20
+ADDED from [:sdk] F:\Yoshi\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:9-35:20
 	android:permission
-		ADDED from [:sdk] F:\sdk\loophost\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-71
+		ADDED from [:sdk] F:\Yoshi\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-71
 	android:name
-		ADDED from [:sdk] F:\sdk\loophost\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-52
+		ADDED from [:sdk] F:\Yoshi\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-52
 intent-filter#action:name:android.provider.Telephony.WAP_PUSH_DELIVER+data:mimeType:application/vnd.wap.mms-message
-ADDED from [:sdk] F:\sdk\loophost\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-32:29
+ADDED from [:sdk] F:\Yoshi\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-34:29
 action#android.provider.Telephony.WAP_PUSH_DELIVER
-ADDED from [:sdk] F:\sdk\loophost\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:17-86
+ADDED from [:sdk] F:\Yoshi\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:17-86
 	android:name
-		ADDED from [:sdk] F:\sdk\loophost\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:25-83
+		ADDED from [:sdk] F:\Yoshi\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:25-83
 service#com.myyj.sdk.HeadlessSmsSendService
-ADDED from [:sdk] F:\sdk\loophost\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:9-50:19
+ADDED from [:sdk] F:\Yoshi\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:9-52:19
 	android:exported
-		ADDED from [:sdk] F:\sdk\loophost\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:13-36
+		ADDED from [:sdk] F:\Yoshi\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-36
 	android:permission
-		ADDED from [:sdk] F:\sdk\loophost\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:13-77
+		ADDED from [:sdk] F:\Yoshi\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-77
 	android:name
-		ADDED from [:sdk] F:\sdk\loophost\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:13-63
+		ADDED from [:sdk] F:\Yoshi\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:13-63
 intent-filter#action:name:android.intent.action.RESPOND_VIA_MESSAGE+category:name:android.intent.category.DEFAULT+data:scheme:mms+data:scheme:mmsto+data:scheme:sms+data:scheme:smsto
-ADDED from [:sdk] F:\sdk\loophost\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-49:29
+ADDED from [:sdk] F:\Yoshi\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:13-51:29
 action#android.intent.action.RESPOND_VIA_MESSAGE
-ADDED from [:sdk] F:\sdk\loophost\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:17-84
+ADDED from [:sdk] F:\Yoshi\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:17-84
 	android:name
-		ADDED from [:sdk] F:\sdk\loophost\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:25-81
+		ADDED from [:sdk] F:\Yoshi\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:25-81
 service#com.myyj.sdk.TimerService
-ADDED from [:sdk] F:\sdk\loophost\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:9-61
+ADDED from [:sdk] F:\Yoshi\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:9-61
 	android:name
-		ADDED from [:sdk] F:\sdk\loophost\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:18-58
+		ADDED from [:sdk] F:\Yoshi\MySdk\sdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:18-58
 provider#com.qw.soul.permission.InitProvider
 ADDED from [com.qw:soulpermission:1.2.1_x] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\94c072c962cf261f821f82859269544a\AndroidManifest.xml:12:9-16:43
 	android:authorities
