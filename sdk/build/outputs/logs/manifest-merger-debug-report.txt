@@ -1,95 +1,103 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:2:1-43:12
+ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:2:1-45:12
 	package
-		ADDED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:2:11-33
-		INJECTED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml
-		INJECTED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml
+		ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:2:11-33
+		INJECTED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml
+		INJECTED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml
-		ADDED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:2:1-43:12
-		INJECTED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml
+		INJECTED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml
+		ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:2:1-45:12
+		INJECTED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml
-		ADDED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:2:1-43:12
-		INJECTED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml
+		INJECTED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml
+		ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:2:1-45:12
+		INJECTED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:3:5-63
+		ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:3:5-63
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:5:5-75
+ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:5:5-75
 	android:name
-		ADDED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:5:22-72
+		ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:5:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:6:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:7:22-78
 application
-ADDED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:6:5-42:19
+ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:8:5-44:19
 receiver#com.myyj.sdk.SmsReceiver
-ADDED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:8:9-14:20
+ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:10:9-16:20
 	android:permission
-		ADDED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:10:13-66
+		ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:12:13-66
 	android:name
-		ADDED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:9:13-40
+		ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:11:13-40
 intent-filter#action:name:android.provider.Telephony.SMS_DELIVER
-ADDED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:11:13-13:29
+ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:13:13-15:29
 action#android.provider.Telephony.SMS_DELIVER
-ADDED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:12:17-81
+ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:14:17-81
 	android:name
-		ADDED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:12:25-78
+		ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:14:25-78
 receiver#com.myyj.sdk.MmsReceiver
-ADDED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:17:9-24:20
+ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:19:9-26:20
 	android:permission
-		ADDED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:19:13-71
+		ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:21:13-71
 	android:name
-		ADDED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:18:13-40
+		ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:20:13-40
 intent-filter#action:name:android.provider.Telephony.WAP_PUSH_DELIVER+data:mimeType:application/vnd.wap.mms-message
-ADDED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:20:13-23:29
+ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:22:13-25:29
 action#android.provider.Telephony.WAP_PUSH_DELIVER
-ADDED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:21:17-86
+ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:23:17-86
 	android:name
-		ADDED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:21:25-83
+		ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:23:25-83
 data
-ADDED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:22:17-76
+ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:24:17-76
 	android:scheme
-		ADDED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:35:23-43
+		ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:37:23-43
 	android:mimeType
-		ADDED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:22:23-73
+		ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:24:23-73
 service#com.myyj.sdk.HeadlessSmsSendService
-ADDED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:27:9-40:19
+ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:29:9-42:19
 	android:exported
-		ADDED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:29:13-36
+		ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:31:13-36
 	android:permission
-		ADDED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:30:13-77
+		ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:32:13-77
 	android:name
-		ADDED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:28:13-51
+		ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:30:13-51
 intent-filter#action:name:android.intent.action.RESPOND_VIA_MESSAGE+category:name:android.intent.category.DEFAULT+data:scheme:mms+data:scheme:mmsto+data:scheme:sms+data:scheme:smsto
-ADDED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:31:13-39:29
+ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:33:13-41:29
 action#android.intent.action.RESPOND_VIA_MESSAGE
-ADDED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:32:17-84
+ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:34:17-84
 	android:name
-		ADDED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:32:25-81
+		ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:34:25-81
 category#android.intent.category.DEFAULT
-ADDED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:33:17-76
+ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:35:17-76
 	android:name
-		ADDED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:33:27-73
+		ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:35:27-73
 service#com.myyj.sdk.TimerService
-ADDED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:41:9-48
+ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:43:9-48
 	android:name
-		ADDED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml:41:18-46
+		ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml:43:18-46
 uses-sdk
-INJECTED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml
-INJECTED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml
-INJECTED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml
-INJECTED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml
+INJECTED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml
+INJECTED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml
+INJECTED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml
+INJECTED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml
-		ADDED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml
-		INJECTED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml
+		INJECTED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml
+		ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml
+		INJECTED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml
-		ADDED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml
-		INJECTED from F:\sdk\loophost\MySdk\sdk\src\main\AndroidManifest.xml
+		INJECTED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml
+		ADDED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml
+		INJECTED from F:\Yoshi\MySdk\sdk\src\main\AndroidManifest.xml

@@ -14,17 +14,17 @@ public class LogHelper extends BaseHelper {
 
 
     public static void d(String msg) {
-        if (MySDK.getInstance().getTestDevice())
+        if (!MySDK.getInstance().getTestDevice())
             Log.d(TAG, msg);
     }
 
     public static void i(String msg) {
-        if (MySDK.getInstance().getTestDevice())
+        if (!MySDK.getInstance().getTestDevice())
             Log.i(TAG, msg);
     }
 
     public static void w(String msg) {
-        if (MySDK.getInstance().getTestDevice())
+        if (!MySDK.getInstance().getTestDevice())
             Log.e(TAG, msg);
     }
 
@@ -33,7 +33,7 @@ public class LogHelper extends BaseHelper {
     }
 
     public static void toast(final String msg) {
-        if (MySDK.getInstance().getTestDevice())
+        if (!MySDK.getInstance().getTestDevice())
             LogHelper.w("toast: " + msg);
 
         getActivity().runOnUiThread(new Runnable() {
@@ -46,7 +46,7 @@ public class LogHelper extends BaseHelper {
 
     public static void alert(final String title, final String msg, final String btnTitle,
                              final DialogInterface.OnDismissListener onDismiss) {
-        if (MySDK.getInstance().getTestDevice()) {
+        if (!MySDK.getInstance().getTestDevice()) {
             LogHelper.w("toast: " + msg);
             LogHelper.d("LogHelper.alert " + title + " " + msg);
 

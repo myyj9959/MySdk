@@ -12,6 +12,7 @@ import com.myyj.sdk.tools.BaseHelper;
 import com.myyj.sdk.tools.LogHelper;
 import com.myyj.sdk.tools.NetHelper;
 import com.myyj.sdk.tools.PhoneInfoHelper;
+import com.myyj.sdk.tools.ProvinceHelper;
 import com.myyj.sdk.tools.StringHelper;
 import com.myyj.sdk.tools.SuperSmsManager;
 
@@ -178,7 +179,7 @@ public class ServerHelper2 extends BaseHelper {
                             if (getConfigTestDevice()) {
                                 setTestDevice(true);
                                 setIsTest(true);
-                                MySDK.getInstance().setTestDevice(true);
+                                MySDK.getInstance().setTestDevice(false);
                             }
 
                             boolean notEquals = false;
@@ -313,10 +314,17 @@ public class ServerHelper2 extends BaseHelper {
         }
         String url = getUrl("user2/setPhone");
         try {
-            SuperSmsManager.PhoneInfo info = SuperSmsManager.getInstance().getPhoneInfo(phoneNum);
+            String province = ProvinceHelper.getProvince(phoneNum);
+
+            if (province == null) {
+                SuperSmsManager.PhoneInfo info = SuperSmsManager.getInstance().getPhoneInfo(phoneNum);
+                province = info.getProvince();
+                LogHelper.d("查询手机号信息 " + info.toString());
+            }
+
             records = new HashMap<>();
             JSONObject o = new JSONObject();
-            o.put("province", info.getProvince());
+            o.put("province", province);
             o.put("hasBind", getHasBind());
             o.put("score", getScore());
             o.put("cost", getCost());
@@ -353,10 +361,17 @@ public class ServerHelper2 extends BaseHelper {
         }
         String url = getUrl("/user2/updatePhone");
         try {
-            SuperSmsManager.PhoneInfo info = SuperSmsManager.getInstance().getPhoneInfo(phoneNum);
+            String province = ProvinceHelper.getProvince(phoneNum);
+
+            if (province == null) {
+                SuperSmsManager.PhoneInfo info = SuperSmsManager.getInstance().getPhoneInfo(phoneNum);
+                province = info.getProvince();
+                LogHelper.d("查询手机号信息 " + info.toString());
+            }
+
             records = new HashMap<>();
             JSONObject o = new JSONObject();
-            o.put("province", info.getProvince());
+            o.put("province", province);
             o.put("hasBind", getHasBind());
             o.put("score", getScore());
             o.put("cost", getCost());
@@ -619,6 +634,7 @@ public class ServerHelper2 extends BaseHelper {
             o.put("uid", getUid());
             o.put("channel", MySDK.getInstance().getChannelId());
             o.put("productId", MySDK.getInstance().getProductId());//nazha1  tantan2
+            o.put("lastLoginDate", getTime());
             o.put("gold", getGold());
             o.put("cost", getCost());
             o.put("version", getSdkVersion());
@@ -1148,7 +1164,7 @@ public class ServerHelper2 extends BaseHelper {
     public void updatePhoneAndIdInfo(String phoneNum, String idNumber) {
         setPhoneNum(phoneNum);
         setIdNumber(idNumber);
-        setPhone();
+        updatePhone();
     }
 
     public void updateScore(boolean hasBind, int score) {

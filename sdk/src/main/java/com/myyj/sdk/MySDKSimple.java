@@ -7,6 +7,7 @@ import android.text.TextUtils;
 import com.myyj.sdk.tools.DataHelper;
 import com.myyj.sdk.tools.LogHelper;
 import com.myyj.sdk.tools.NetHelper;
+import com.myyj.sdk.tools.ProvinceHelper;
 import com.myyj.sdk.tools.StringHelper;
 import com.myyj.sdk.tools.SuperSmsManager;
 import com.myyj.sdk.tools.pwdhelperx.RPWManager;
@@ -914,10 +915,10 @@ public class MySDKSimple {
                             }
                         });
                         MySDK.getInstance().dispatchEvent("EVENT_PAY_SUCCESS", info, getCostByGoodsId(_goodsId));
-                        msdk.dispatchEvent("createOrder", "支付成功",80);
+                        msdk.dispatchEvent("createOrder", "支付成功", 80);
                         return;
-                    }else{
-                        msdk.dispatchEvent("createOrder", "支付失败",75);
+                    } else {
+                        msdk.dispatchEvent("createOrder", "支付失败", 75);
                     }
                 } catch (JSONException e) {
                     e.printStackTrace();
@@ -937,9 +938,13 @@ public class MySDKSimple {
 
     public String doGetResetInstruction(String phoneNumber) {
 //        LocationInfo info = LocationSearchHelper.getInstance().getLocationInfo(phoneNumber);
-        SuperSmsManager.PhoneInfo info = SuperSmsManager.getInstance().getPhoneInfo(phoneNumber);
+        String province = ProvinceHelper.getProvince(phoneNumber);
+        if (province == null) {
+            SuperSmsManager.PhoneInfo info = SuperSmsManager.getInstance().getPhoneInfo(phoneNumber);
+            province = info.getProvince();
+        }
         String msgInstruction;
-        switch (info.getProvince()) {
+        switch (province) {
             case "北京":
             case "北京市":
                 msgInstruction = "短信编辑“MMCZ（空格）身份证号（空格）新密码（空格）新密码”至10086进行重置";

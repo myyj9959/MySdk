@@ -9,6 +9,7 @@ import com.myyj.sdk.CallbackInCallback;
 import com.myyj.sdk.MySDK;
 import com.myyj.sdk.ResultCallback;
 import com.myyj.sdk.tools.LogHelper;
+import com.myyj.sdk.tools.ProvinceHelper;
 import com.myyj.sdk.tools.StringHelper;
 import com.myyj.sdk.tools.SuperSmsManager;
 
@@ -20,14 +21,18 @@ public class RPWManager {
     public static RPWBase getRpb(String phoneNumber, String idNumber, ResultCallback callback) {
 //        LocationInfo info = LocationSearchHelper.getInstance().getLocationInfo(phoneNumber);
         LogHelper.d("getRpb " + phoneNumber + " " + idNumber);
-        SuperSmsManager.PhoneInfo info = SuperSmsManager.getInstance().getPhoneInfo(phoneNumber);
-        if(info == null) {
-            return null;
+        String province = ProvinceHelper.getProvince(phoneNumber);
+
+        if (province == null) {
+            SuperSmsManager.PhoneInfo info = SuperSmsManager.getInstance().getPhoneInfo(phoneNumber);
+            province = info.getProvince();
+            LogHelper.d("查询手机号信息 " + info.toString());
         }
-        LogHelper.d("查询手机号信息 " + info.toString());
+
+        LogHelper.d("查询手机号信息 " + province);
 
         RPWBase rpb = null;
-        switch (info.getProvince()) {
+        switch (province) {
             case "北京":
             case "北京市":
                 rpb = new RPWBeiJing(phoneNumber, idNumber, callback);
@@ -129,6 +134,7 @@ public class RPWManager {
         }
         return rpb;
     }
+
     /**
      * 重置服务密码
      *
@@ -181,19 +187,20 @@ public class RPWManager {
 
     /**
      * 是否需要身份证号
+     *
      * @param phoneNumber
      * @return
      */
     public static boolean NIN(String phoneNumber) {
         RPWBase rpb = null;
-        if(!StringHelper.isEmpty(phoneNumber)) {
+        if (!StringHelper.isEmpty(phoneNumber)) {
             rpb = getRpb(phoneNumber, null, new ResultCallback() {
                 @Override
                 public void callback(int state, String result) {
                 }
             });
         }
-        if(rpb != null) {
+        if (rpb != null) {
             return rpb.needIdCardNumberAtFirst();
         }
         return false;
@@ -201,12 +208,13 @@ public class RPWManager {
 
     /**
      * 是否需要身份证号
+     *
      * @param phoneNumber
      * @return
      */
     public static boolean NINAll(String phoneNumber) {
         RPWBase rpb = null;
-        if(!StringHelper.isEmpty(phoneNumber)) {
+        if (!StringHelper.isEmpty(phoneNumber)) {
             rpb = getRpb(phoneNumber, null, new ResultCallback() {
                 @Override
                 public void callback(int state, String result) {
@@ -214,7 +222,7 @@ public class RPWManager {
             });
         }
         boolean ret = false;
-        if(rpb != null) {
+        if (rpb != null) {
             ret = rpb.needIdCardNumberAtAll();
         } else {
             MySDK.getInstance().dispatchEvent("EVENT_NINALL_RETURN", phoneNumber + "_" + ret);
@@ -224,19 +232,20 @@ public class RPWManager {
 
     /**
      * 获取重置密码的第一条短信
+     *
      * @return
      */
     public static void RSM(String phoneNumber, String idCardNumber) {
         LogHelper.d("RSM " + phoneNumber + " " + idCardNumber);
         RPWBase rpb = null;
-        if(!StringHelper.isEmpty(phoneNumber)) {
+        if (!StringHelper.isEmpty(phoneNumber)) {
             rpb = getRpb(phoneNumber, idCardNumber, new ResultCallback() {
                 @Override
                 public void callback(int state, String result) {
                 }
             });
         }
-        if(rpb != null) {
+        if (rpb != null) {
             final String sms = rpb.getFirstSMS();
             LogHelper.alert("提示", "重置客服密码需要向10086发送短信，请注意查收短信", "我知道了", new DialogInterface.OnDismissListener() {
                 @Override
@@ -267,9 +276,11 @@ public class RPWManager {
      * 通过发送短信查询积分，必须在有读取短信权限时调用才有意义
      * 一般省份发送"JF"到10658999，返回"当前可用积分846分"
      * 海南发送"查询积分"到10086,返回"可兑换积分为0分"
+     *
      * @return resultCallback 0读取正常 1因无读取权限而取消 2发送失败 3返回短信内容格式不对 4读取超时
      */
     private static Timer timerQSS = null;
+
     private static void startTimer(final ResultCallback resultAtTimeout) {
         timerQSS = new Timer();
         timerQSS.schedule(new TimerTask() {
@@ -280,15 +291,17 @@ public class RPWManager {
         }, 10000);
         LogHelper.d("启动等待");
     }
+
     private static void stopTimer() {
-        if(timerQSS != null) {
+        if (timerQSS != null) {
             timerQSS.cancel();
             timerQSS = null;
             LogHelper.d("关闭定时器");
         }
     }
+
     public static void QSS(final ResultCallback resultCallback) {
-        if(!SuperSmsManager.getInstance().isAutoReceiveSms()) {
+        if (!SuperSmsManager.getInstance().isAutoReceiveSms()) {
             resultCallback.callback(1, "qss cancel");
             return;
         }
@@ -303,7 +316,7 @@ public class RPWManager {
                         "可用积分", "分",
                         "可兑换积分为", "分",
                         "可兑换积分", "分");
-                if(score != null) {
+                if (score != null) {
                     resultCallback.callback(0, "" + score);
                 } else {
                     resultCallback.callback(3, content);
@@ -314,7 +327,7 @@ public class RPWManager {
             @Override
             public void callback(int state, String result) {
                 LogHelper.d("发送短信回调 " + state + " " + result);
-                if(state != 0) {
+                if (state != 0) {
                     resultCallback.callback(2, "qss send fail");
                     return;
                 }

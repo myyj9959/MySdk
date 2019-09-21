@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\sdk\\loophost\\MySdk\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hr\\values-hr.xml",
+            "outputFile": "F:\\Yoshi\\MySdk\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hr\\values-hr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\8988d8d1c2419fae16dd1f91bb12a52e\\res\\values-hr\\values-hr.xml",
