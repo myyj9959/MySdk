@@ -202,7 +202,7 @@ public class MySDK {
 
     //    ----------------------------------------------------------------
     private String network;
-    private boolean testDevice = true;
+    private boolean testDevice = false;
     private String version; // app版本号
     private String pkgTime; // 打包时间
     private String defaultServicePassword = "582934";
