@@ -374,7 +374,7 @@ public class MySDKSimple {
             @Override
             public void callback(int state, String result) {
                 try {
-                    JSONObject o = new JSONObject(result);
+                    final JSONObject o = new JSONObject(result);
 
                     if (TextUtils.isEmpty(o.getString("info"))) {
                         msdk.dispatchEvent("EVENT_REGISTER_FAIL", "登录银夏失败");
@@ -384,7 +384,7 @@ public class MySDKSimple {
                         resultCallback.callback(state, o.getString("info"));
                         return;
                     }
-                    int infoState = o.getInt("infoState");
+                    final int infoState = o.getInt("infoState");
 //                {"infoState":100301,"info":"验证码错误"}
 //                {"infoState":100302,"info":"用户已注册"}
 //                {"infoState":0,"info":"验证码校验成功"}
@@ -403,6 +403,14 @@ public class MySDKSimple {
                                             return;
                                         } else {
                                             MySDK.getInstance().dispatchEvent("EVENT_REGISTER_SUCCESS", result);
+
+                                            try {
+                                                String info = o.getString("info");
+                                                resultCallback.callback(infoState, info);
+                                            }catch (JSONException e) {
+                                                e.printStackTrace();
+                                                LogHelper.e(e);
+                                            }
                                         }
                                         doAfterRegister(phoneNum, true, tryAutoBinding, resultCallback);
                                         return;
