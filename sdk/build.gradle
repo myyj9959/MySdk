@@ -53,6 +53,4 @@ dependencies {
     implementation 'com.bfy:dualsim:1.0.1'
     implementation 'com.baidu.aip:java-sdk:4.11.3'
     implementation 'com.github.bbssyyuui:activitylauncher:1.0.2'
-
-//    implementation project(':un7zip')
 }
